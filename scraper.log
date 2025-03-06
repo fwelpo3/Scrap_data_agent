@@ -1,0 +1,2119 @@
+2025-03-05 00:57:52,630 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 00:58:00,188 - INFO - Starting crawl for: https://www.tawil-media.de/
+2025-03-05 00:58:00,188 - INFO - ====== WebDriver manager ======
+2025-03-05 00:58:00,899 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 00:58:01,007 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 00:58:01,081 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 00:58:01,255 - INFO - WebDriver version 133.0.6943.141 selected
+2025-03-05 00:58:01,257 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-05 00:58:01,257 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-05 00:58:01,373 - INFO - Driver downloading response is 200
+2025-03-05 00:58:01,835 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 00:58:01,980 - INFO - Driver has been saved in cache [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-05 00:58:03,215 - INFO - Browser initialized successfully
+2025-03-05 00:58:03,215 - INFO - Crawling page 1/4: https://www.tawil-media.de/
+2025-03-05 00:58:11,400 - INFO - Progress: 1/4 pages processed
+2025-03-05 00:58:16,400 - INFO - Crawling page 2/4: https://www.tawil-media.de/about-3
+2025-03-05 00:58:20,621 - INFO - Progress: 2/4 pages processed
+2025-03-05 00:58:25,622 - INFO - Crawling page 3/4: https://www.tawil-media.de/blank-1
+2025-03-05 00:58:30,846 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 00:58:30,846 - ERROR - Response text: Basierend auf dem von Ihnen bereitgestellten Webseiteninhalt sind hier die extrahierten persönlichen und unternehmensbezogenen Informationen:
+
+**Unternehmensbezogene Informationen:**
+
+*   **Name des Unternehmens:** Tawil Media
+*   **Beschreibung des Unternehmens:** Tawil Media ist ein Unternehmen, das Dienstleistungen in den Bereichen Videografie, Fotografie und Marketing Management anbietet. Sie bieten Unterstützung in allen Bereichen, einschließlich Trainingseinheiten, Strategieentwicklung, Beratung und Account-Management-Plänen. Ihr Fokus liegt darauf, handfeste Ergebnisse für ihre Kunden zu erzielen.
+
+**Persönliche Informationen:**
+
+*   **vorname:** Nicht im Inhalt gefunden (wird aber im Kontaktformular abgefragt)
+*   **nachname:** Nicht im Inhalt gefunden (wird aber im Kontaktformular abgefragt)
+*   **geburtsdatum:** Nicht im Inhalt gefunden
+*   **geburtsort:** Nicht im Inhalt gefunden
+*   **geschlecht:** Nicht im Inhalt gefunden
+*   **adresse:** Nicht im Inhalt gefunden
+*   **telefonnummer:** Nicht im Inhalt gefunden
+*   **email:** Nicht im Inhalt gefunden (wird aber im Kontaktformular abgefragt)
+
+**Zusammenfassend lässt sich sagen, dass der bereitgestellte Inhalt hauptsächlich Informationen über das Unternehmen "Tawil Media" und seine Dienstleistungen enthält. Es werden keine spezifischen persönlichen Informationen von Einzelpersonen genannt, außer den Feldern, die in einem Kontaktformular abgefragt werden (Vorname, Nachname, E-Mail-Adresse).**
+2025-03-05 00:58:30,985 - INFO - Progress: 3/4 pages processed
+2025-03-05 00:58:35,986 - INFO - Crawling page 4/4: https://www.tawil-media.de/services-5
+2025-03-05 00:58:38,969 - INFO - Progress: 4/4 pages processed
+2025-03-05 00:58:43,970 - INFO - Crawling completed. 4 pages processed.
+2025-03-05 00:58:43,971 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250305_005843.json
+2025-03-05 00:59:48,627 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 00:59:55,084 - INFO - Starting crawl for: https://www.tawil-media.de/
+2025-03-05 00:59:55,084 - INFO - ====== WebDriver manager ======
+2025-03-05 00:59:55,735 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 00:59:55,814 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 00:59:55,883 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 00:59:56,911 - INFO - Browser initialized successfully
+2025-03-05 00:59:56,911 - INFO - Crawling page 1/10: https://www.tawil-media.de/
+2025-03-05 01:00:07,944 - INFO - Progress: 1/10 pages processed
+2025-03-05 01:00:09,944 - INFO - Crawling page 2/10: https://www.tawil-media.de/about-3
+2025-03-05 01:00:17,720 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:00:17,720 - ERROR - Response text: Basierend auf dem bereitgestellten Webseiteninhalt, hier sind die extrahierten Informationen. Es ist wichtig zu beachten, dass der Inhalt hauptsächlich Informationen über das Unternehmen "Tawil Media" und nicht über Einzelpersonen enthält.
+
+**Persönliche Informationen:**
+
+- **vorname:** nicht gefunden
+- **nachname:** nicht gefunden
+- **geburtsdatum:** nicht gefunden
+- **geburtsort:** nicht gefunden
+- **geschlecht:** nicht gefunden
+- **adresse:**
+    - **straße:** nicht gefunden
+    - **hausnummer:** nicht gefunden
+    - **postleitzahl:** nicht gefunden
+    - **ort:** nicht gefunden
+- **telefonnummer:** nicht gefunden
+- **email:** nicht gefunden
+- **beschreibung:** nicht gefunden (keine Beschreibung einer Person)
+
+**Unternehmensbezogene Informationen:**
+
+- **vorname:** nicht zutreffend (Unternehmen)
+- **nachname:** nicht zutreffend (Unternehmen)
+- **geburtsdatum:** nicht zutreffend (Unternehmen)
+- **geburtsort:** nicht zutreffend (Unternehmen)
+- **geschlecht:** nicht zutreffend (Unternehmen)
+- **adresse:**
+    - **straße:** nicht gefunden
+    - **hausnummer:** nicht gefunden
+    - **postleitzahl:** nicht gefunden
+    - **ort:** nicht gefunden
+- **telefonnummer:** nicht gefunden
+- **email:** nicht gefunden
+- **beschreibung:** Tawil Media ist ein Unternehmen für Medienproduktion und digitales Marketing. Sie beschreiben sich als Quelle für "erstklassige Medienproduktion und digitales Marketing" und betonen ihre Leidenschaft für "atemberaubende visuelle Inhalte und effektive Marketingstrategien". Sie haben ein Team von Experten, das sich darauf konzentriert, Botschaften herausragend zu präsentieren und Ziele zu erreichen. Ihre Werte sind Kreativität, Exzellenz und Kundenzufriedenheit. Ihre Mission ist es, herausragende Medienproduktion und digitales Marketing zu schaffen, die Botschaften unvergesslich machen, und ihr Ziel ist es, Kunden dabei zu helfen, ihre Visionen und Ziele zu erreichen. Ihre Vision ist es, die Grenzen der Kreativität und Innovation in der Branche zu erweitern und eine führende Kraft zu sein.
+
+**Zusammenfassend:**
+
+Der Webseiteninhalt liefert keine persönlichen Informationen im Sinne von Vorname, Nachname, Geburtsdatum usw.  Die extrahierten Informationen beziehen sich ausschließlich auf das Unternehmen "Tawil Media" und dessen Selbstbeschreibung, Werte, Mission und Vision. Es fehlen jedoch typische Unternehmenskontaktinformationen wie Adresse, Telefonnummer und E-Mail-Adresse in diesem spezifischen Auszug.
+2025-03-05 01:00:17,852 - INFO - Progress: 2/10 pages processed
+2025-03-05 01:00:19,853 - INFO - Crawling page 3/10: https://www.tawil-media.de/blank-1
+2025-03-05 01:00:25,033 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:00:25,033 - ERROR - Response text: Basierend auf dem gegebenen Webseiteninhalt sind hier die extrahierten Informationen:
+
+**Persönliche Informationen:**
+
+- **vorname:** Nicht gefunden
+- **nachname:** Nicht gefunden
+- **geburtsdatum:** Nicht gefunden
+- **geburtsort:** Nicht gefunden
+- **geschlecht:** Nicht gefunden
+- **adresse:** Nicht gefunden
+- **telefonnummer:** Nicht gefunden
+- **email:** Nicht gefunden
+
+**Unternehmensbezogene Informationen:**
+
+- **beschreibung:** Tawil Media ist ein Unternehmen, das Dienstleistungen in den Bereichen Videografie, Fotografie und Marketing Management anbietet. Sie bieten auch Trainingseinheiten, Strategieberatung und Account-Management-Pläne an, um ihren Kunden zu helfen, handfeste Ergebnisse zu erzielen.
+
+**Zusätzliche Beobachtungen:**
+
+* Der Webseiteninhalt ist sehr kurz und konzentriert sich hauptsächlich auf die Auflistung der angebotenen Dienstleistungen und eine Aufforderung zur Kontaktaufnahme.
+* Es gibt ein Kontaktformular, das die Felder "Vorname", "Nachname" und "E-Mail-Adresse" enthält, was darauf hindeutet, dass das Unternehmen Kontaktinformationen von potenziellen Kunden sammeln möchte.
+* Der Name des Unternehmens ist "Tawil Media".
+* Es wird versprochen, dass Antworten auf Anfragen innerhalb von zwei Stunden erfolgen.
+
+**Zusammenfassend lässt sich sagen, dass der bereitgestellte Inhalt keine expliziten persönlichen Informationen enthält, sondern hauptsächlich Informationen über das Unternehmen "Tawil Media" und seine Dienstleistungen.**
+2025-03-05 01:00:25,183 - INFO - Progress: 3/10 pages processed
+2025-03-05 01:00:27,184 - INFO - Crawling page 4/10: https://www.tawil-media.de/services-5
+2025-03-05 01:00:35,108 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:00:35,108 - ERROR - Response text: Basierend auf dem gegebenen Webseiteninhalt, hier ist die Analyse und Extraktion der persönlichen und unternehmensbezogenen Informationen:
+
+**Persönliche Informationen:**
+
+* **vorname:** nicht gefunden
+* **nachname:** nicht gefunden
+* **geburtsdatum:** nicht gefunden
+* **geburtsort:** nicht gefunden
+* **geschlecht:** nicht gefunden
+* **adresse:** nicht gefunden
+* **telefonnummer:** nicht gefunden
+* **email:** nicht gefunden
+* **beschreibung:** nicht gefunden (Es werden keine persönlichen Beschreibungen gegeben)
+
+**Unternehmensbezogene Informationen:**
+
+* **vorname:** nicht relevant (Unternehmen)
+* **nachname:** nicht relevant (Unternehmen)
+* **geburtsdatum:** nicht relevant (Unternehmen)
+* **geburtsort:** nicht relevant (Unternehmen)
+* **geschlecht:** nicht relevant (Unternehmen)
+* **adresse:** nicht gefunden
+* **telefonnummer:** nicht gefunden
+* **email:** nicht gefunden
+* **beschreibung:** Tawil Media ist ein Unternehmen, das Social Media Pakete anbietet. Sie bieten verschiedene Pakete (Standard, Plus, Premium, VIP) mit unterschiedlichen Leistungen an, darunter:
+    * Erstellung von Social Media Beiträgen und Captions
+    * Community Management und Interaktion
+    * Planung und Trendverfolgung
+    * Content Recherche
+    * Entwicklung von Social Media Strategien
+    * Verwaltung und Optimierung von Werbekampagnen
+    * Monatliche Analysen und Leistungsberichte
+    * Maßgeschneiderte Lösungen
+
+**Zusammenfassend:**
+
+Der Webseiteninhalt enthält **keine** persönlichen Informationen wie Namen, Geburtsdaten, Adressen oder Kontaktdaten von Einzelpersonen.
+
+Es werden **Unternehmensinformationen** über "Tawil Media" extrahiert, insbesondere eine Beschreibung der angebotenen Dienstleistungen im Bereich Social Media Marketing.  Es fehlen jedoch grundlegende Unternehmenskontaktdaten wie Adresse, Telefonnummer oder E-Mail-Adresse.  Der Inhalt ist eher werblich und beschreibt die Serviceangebote.
+2025-03-05 01:00:35,257 - INFO - Progress: 4/10 pages processed
+2025-03-05 01:00:37,258 - INFO - Crawling page 5/10: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 01:00:39,851 - INFO - Progress: 5/10 pages processed
+2025-03-05 01:00:41,852 - INFO - Crawling page 6/10: https://www.tawil-media.de/portfolio
+2025-03-05 01:00:47,246 - INFO - Progress: 6/10 pages processed
+2025-03-05 01:00:49,247 - INFO - Crawling page 7/10: https://www.tawil-media.de/datenschutzerkl%C3%A4rung
+2025-03-05 01:00:59,275 - INFO - Progress: 7/10 pages processed
+2025-03-05 01:01:01,275 - INFO - Crawling page 8/10: https://www.tawil-media.de/agbs
+2025-03-05 01:01:04,987 - INFO - Progress: 8/10 pages processed
+2025-03-05 01:01:06,987 - INFO - Crawling page 9/10: https://www.tawil-media.de/impressum
+2025-03-05 01:01:12,425 - INFO - Progress: 9/10 pages processed
+2025-03-05 01:01:14,425 - INFO - Crawling page 10/10: https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder
+2025-03-05 01:01:18,929 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:01:18,929 - ERROR - Response text: Basierend auf dem gegebenen Webseiteninhalt konnte ich folgende Informationen extrahieren:
+
+**Unternehmensbezogene Informationen:**
+
+* **beschreibung:** Das Unternehmen scheint im Bereich "Hochzeit Bilder" tätig zu sein, was auf Hochzeitsfotografie oder -videografie hindeutet. Der Text "Tawil Media" könnte der Name des Unternehmens sein. Die Aufforderung "Create Your First Project Start adding your projects to your portfolio. Click on 'Manage Projects' to get started" deutet darauf hin, dass es sich um eine Plattform oder Website handeln könnte, auf der Benutzer Projekte (vermutlich im Medienbereich) verwalten können.
+
+**Persönliche Informationen:**
+
+* **vorname:** Keine Informationen gefunden.
+* **nachname:** Keine Informationen gefunden. "Tawil" könnte ein Nachname sein, ist aber im Kontext eher Teil des Firmennamens "Tawil Media".
+* **geburtsdatum:** Keine Informationen gefunden.
+* **geburtsort:** Keine Informationen gefunden.
+* **geschlecht:** Keine Informationen gefunden.
+* **adresse:** Keine Informationen gefunden.
+* **telefonnummer:** Keine Informationen gefunden.
+* **email:** Keine Informationen gefunden.
+
+**Zusammenfassend lässt sich sagen, dass der bereitgestellte Webseiteninhalt sehr spärlich ist und hauptsächlich den Titel "Hochzeit Bilder | Tawil Media" sowie generische Navigations- und Handlungsaufforderungen enthält.  Es sind keine direkten persönlichen oder detaillierten Unternehmensinformationen wie Adresse, Telefonnummer oder E-Mail-Adresse vorhanden.**
+2025-03-05 01:01:19,230 - INFO - Progress: 10/10 pages processed
+2025-03-05 01:01:21,230 - INFO - Crawling completed. 10 pages processed.
+2025-03-05 01:01:21,231 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250305_010121.json
+2025-03-05 01:16:03,924 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:16:35,713 - INFO - Starting crawl for: https://www.tawil-media.de/
+2025-03-05 01:16:35,714 - INFO - ====== WebDriver manager ======
+2025-03-05 01:16:36,383 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:16:36,457 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:16:36,838 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 01:16:37,875 - INFO - Browser initialized successfully
+2025-03-05 01:16:37,875 - INFO - Crawling page 1/10: https://www.tawil-media.de/
+2025-03-05 01:16:45,320 - INFO - Progress: 1/10 pages processed
+2025-03-05 01:16:47,320 - INFO - Crawling page 2/10: https://www.tawil-media.de/about-3
+2025-03-05 01:16:51,871 - INFO - Progress: 2/10 pages processed
+2025-03-05 01:16:53,872 - INFO - Crawling page 3/10: https://www.tawil-media.de/blank-1
+2025-03-05 01:16:57,998 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:16:57,998 - ERROR - Response text: ```
+Zusammenfassend lässt sich aus dem gegebenen Webseiteninhalt folgende persönliche oder unternehmensbezogene Informationen extrahieren:
+
+- vorname: nicht gefunden
+- nachname: nicht gefunden
+- geburtsdatum: nicht gefunden
+- geburtsort: nicht gefunden
+- geschlecht: nicht gefunden
+- adresse: nicht gefunden
+- telefonnummer: nicht gefunden
+- email: nicht gefunden
+- beschreibung: Tawil Media ist ein Unternehmen, das Dienstleistungen in den Bereichen Videografie, Fotografie, Marketing Management, Training, Strategie, Beratung und Account Management anbietet. Es positioniert sich als Anbieter mit Spezialisten in verschiedenen Bereichen, der Kunden umfassend unterstützt und handfeste Ergebnisse durch Strategie und Beratung verspricht.
+```
+2025-03-05 01:16:58,138 - INFO - Progress: 3/10 pages processed
+2025-03-05 01:17:00,140 - INFO - Crawling page 4/10: https://www.tawil-media.de/services-5
+2025-03-05 01:17:08,083 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:17:08,083 - ERROR - Response text: Basierend auf dem gegebenen Webseiteninhalt, hier ist die Analyse und Extraktion der gewünschten Informationen:
+
+**Analyse der Webseite:**
+
+Der Inhalt beschreibt verschiedene Social Media Pakete, die von "Tawil Media" angeboten werden. Es handelt sich um eine Beschreibung von Dienstleistungen und Preisstrukturen, nicht um persönliche Informationen einer Einzelperson.  Es gibt auch keine expliziten Unternehmensinformationen wie Adresse oder Telefonnummer im *gegebenen* Textausschnitt.
+
+**Extraktion der Felder:**
+
+* **vorname:** Tawil (Teil des Firmennamens, könnte als "Vorname" im Firmennamen interpretiert werden)
+* **nachname:** Media (Teil des Firmennamens, könnte als "Nachname" im Firmennamen interpretiert werden)
+* **geburtsdatum:** nicht gefunden
+* **geburtsort:** nicht gefunden
+* **geschlecht:** nicht gefunden (nicht relevant für ein Unternehmen)
+* **adresse:** nicht gefunden
+    * **straße:** nicht gefunden
+    * **hausnummer:** nicht gefunden
+    * **postleitzahl:** nicht gefunden
+    * **ort:** nicht gefunden
+* **telefonnummer:** nicht gefunden
+* **email:** nicht gefunden
+* **beschreibung:** Tawil Media bietet Social Media Management Dienstleistungen an.  Dazu gehören:
+    * Social Media Pakete (Standard, Plus, Premium, VIP)
+    * Erstellung von Beiträgen und Captions
+    * Community Management und Interaktion
+    * Planung und Trendfolgung
+    * Content Recherche
+    * Entwicklung von Social Media Strategien
+    * Monatliche Analysen und Leistungsberichte
+    * Verwaltung und Optimierung von Werbekampagnen
+    * Maßgeschneiderte Lösungen
+
+**Zusammenfassend:**
+
+Der Webseiteninhalt ist werblich und beschreibt die Dienstleistungen von "Tawil Media".  Es sind **keine persönlichen Informationen** im Sinne von Geburtsdatum, Geburtsort, Geschlecht, Adresse, Telefonnummer oder Email vorhanden.  Die Felder "vorname" und "nachname" wurden mit den Teilen des Firmennamens "Tawil Media" gefüllt, da dies die einzigen Namensbestandteile im Text sind.  Die Beschreibung fasst die angebotenen Dienstleistungen zusammen.
+2025-03-05 01:17:08,233 - INFO - Progress: 4/10 pages processed
+2025-03-05 01:17:10,234 - INFO - Crawling page 5/10: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 01:17:13,942 - INFO - Progress: 5/10 pages processed
+2025-03-05 01:17:15,943 - INFO - Crawling page 6/10: https://www.tawil-media.de/portfolio
+2025-03-05 01:17:20,821 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:17:20,821 - ERROR - Response text: Basierend auf dem von dir bereitgestellten Webseiteninhalt, konnte ich folgende Informationen extrahieren. Bitte beachte, dass der Inhalt sehr begrenzt ist und viele Felder nicht ausgefüllt werden können.
+
+**- vorname:** nicht gefunden
+**- nachname:** Tawil (könnte der Nachname sein, ist aber nicht sicher, da es auch Teil des Firmennamens "Tawil Media" sein könnte)
+**- geburtsdatum:** nicht gefunden
+**- geburtsort:** nicht gefunden
+**- geschlecht:** nicht gefunden
+**- adresse:** nicht gefunden
+**- telefonnummer:** nicht gefunden
+**- email:** nicht gefunden
+**- beschreibung:** Portfolio Webseite von "Tawil Media".  Die Webseite dient dazu, Arbeiten und Tätigkeiten im Bereich Medien zu präsentieren. Es wird darauf hingewiesen, dass Cookies verwendet werden, um die Nutzererfahrung zu verbessern.
+
+**Zusammenfassend lässt sich sagen, dass der bereitgestellte Webseiteninhalt sehr generisch ist und kaum persönliche oder unternehmensbezogene Informationen enthält, abgesehen vom Namen "Tawil Media" und der Information, dass es sich um ein Portfolio handelt.**
+
+Um detailliertere Informationen zu erhalten, müsste der vollständige Webseiteninhalt analysiert oder die Webseite direkt besucht werden.
+2025-03-05 01:17:21,560 - INFO - Progress: 6/10 pages processed
+2025-03-05 01:17:23,561 - INFO - Crawling page 7/10: https://www.tawil-media.de/datenschutzerkl%C3%A4rung
+2025-03-05 01:17:28,134 - INFO - Progress: 7/10 pages processed
+2025-03-05 01:17:30,135 - INFO - Crawling page 8/10: https://www.tawil-media.de/agbs
+2025-03-05 01:17:33,375 - INFO - Progress: 8/10 pages processed
+2025-03-05 01:17:35,375 - INFO - Crawling page 9/10: https://www.tawil-media.de/impressum
+2025-03-05 01:17:40,255 - INFO - Progress: 9/10 pages processed
+2025-03-05 01:17:42,256 - INFO - Crawling page 10/10: https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder
+2025-03-05 01:17:46,938 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:17:46,938 - ERROR - Response text: Basierend auf dem gegebenen Webseiteninhalt, hier ist die Analyse und Extraktion der gewünschten Informationen:
+
+**Analyse:**
+
+Der Webseiteninhalt ist sehr kurz und generisch. Er scheint von einer Portfolio-Webseite zu stammen, möglicherweise für Fotografen oder Medienschaffende.  "Hochzeit Bilder" deutet auf den thematischen Fokus hin, und "Tawil Media" scheint der Name des Unternehmens oder der Marke zu sein.  Es gibt keine expliziten persönlichen oder detaillierten Unternehmensinformationen im gegebenen Ausschnitt.
+
+**Extraktion der Felder:**
+
+- **vorname:** Nicht gefunden
+- **nachname:** Tawil (könnte ein Nachname sein, ist aber wahrscheinlicher Teil des Firmennamens "Tawil Media")
+- **geburtsdatum:** Nicht gefunden
+- **geburtsort:** Nicht gefunden
+- **geschlecht:** Nicht gefunden
+- **adresse:** Nicht gefunden
+    - **straße:** Nicht gefunden
+    - **hausnummer:** Nicht gefunden
+    - **postleitzahl:** Nicht gefunden
+    - **ort:** Nicht gefunden
+- **telefonnummer:** Nicht gefunden
+- **email:** Nicht gefunden
+- **beschreibung:** Tawil Media scheint ein Unternehmen oder eine Marke im Bereich Hochzeitsfotografie oder Medienproduktion zu sein. Die Webseite dient wahrscheinlich als Portfolio-Plattform, um Projekte im Bereich Hochzeitsbilder zu präsentieren.  Der Inhalt ist sehr rudimentär und bietet keine detaillierteren Informationen über die Person oder das Unternehmen hinter "Tawil Media".
+
+**Zusammenfassend lässt sich sagen, dass der gegebene Webseiteninhalt sehr begrenzt ist und kaum persönliche oder detaillierte Unternehmensinformationen enthält.  "Tawil Media" ist der einzige identifizierbare Name, der wahrscheinlich auf ein Unternehmen oder eine Marke hinweist, die im Bereich Hochzeitsfotografie tätig ist.**
+2025-03-05 01:17:47,317 - INFO - Progress: 10/10 pages processed
+2025-03-05 01:17:49,318 - INFO - Crawling completed. 10 pages processed.
+2025-03-05 01:17:49,318 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250305_011749.json
+2025-03-05 01:20:29,642 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:20:52,136 - INFO - Starting crawl for: https://www.tawil-media.de/
+2025-03-05 01:20:52,137 - INFO - ====== WebDriver manager ======
+2025-03-05 01:20:52,833 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:20:52,904 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:20:52,973 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 01:20:54,047 - INFO - Browser initialized successfully
+2025-03-05 01:20:54,047 - INFO - Crawling page 1/10: https://www.tawil-media.de/
+2025-03-05 01:20:54,653 - INFO - Progress: 1/10 pages processed
+2025-03-05 01:20:56,654 - INFO - Crawling page 2/10: https://www.tawil-media.de/about-3
+2025-03-05 01:20:56,983 - INFO - Progress: 2/10 pages processed
+2025-03-05 01:20:58,984 - INFO - Crawling page 3/10: https://www.tawil-media.de/blank-1
+2025-03-05 01:20:59,381 - INFO - Progress: 3/10 pages processed
+2025-03-05 01:21:01,382 - INFO - Crawling page 4/10: https://www.tawil-media.de/services-5
+2025-03-05 01:21:01,668 - INFO - Progress: 4/10 pages processed
+2025-03-05 01:21:03,669 - INFO - Crawling page 5/10: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 01:21:03,925 - INFO - Progress: 5/10 pages processed
+2025-03-05 01:21:05,925 - INFO - Crawling page 6/10: https://www.tawil-media.de/portfolio
+2025-03-05 01:21:06,607 - INFO - Progress: 6/10 pages processed
+2025-03-05 01:21:08,608 - INFO - Crawling page 7/10: https://www.tawil-media.de/datenschutzerkl%C3%A4rung
+2025-03-05 01:21:09,006 - INFO - Progress: 7/10 pages processed
+2025-03-05 01:21:11,007 - INFO - Crawling page 8/10: https://www.tawil-media.de/agbs
+2025-03-05 01:21:11,267 - INFO - Progress: 8/10 pages processed
+2025-03-05 01:21:13,267 - INFO - Crawling page 9/10: https://www.tawil-media.de/impressum
+2025-03-05 01:21:13,511 - INFO - Progress: 9/10 pages processed
+2025-03-05 01:21:15,512 - INFO - Crawling page 10/10: https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder
+2025-03-05 01:21:16,124 - INFO - Progress: 10/10 pages processed
+2025-03-05 01:21:43,217 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:21:43,217 - ERROR - Response text: Basierend auf dem von Ihnen bereitgestellten Webseiteninhalt konnte ich folgende Informationen extrahieren:
+
+- **vorname:** nicht gefunden
+- **nachname:** Tawil (könnte Teil des Firmennamens sein)
+- **geburtsdatum:** nicht gefunden
+- **geburtsort:** nicht gefunden
+- **geschlecht:** nicht gefunden
+- **adresse:**
+    - **straße:** nicht gefunden
+    - **hausnummer:** nicht gefunden
+    - **postleitzahl:** nicht gefunden
+    - **ort:** nicht gefunden
+- **telefonnummer:** nicht gefunden
+- **email:** nicht gefunden
+- **beschreibung:** Tawil Media ist ein Unternehmen, das Dienstleistungen im Bereich Social Media anbietet. Dazu gehören die Entwicklung von Social Media Strategien, die tägliche Erstellung und Veröffentlichung von Inhalten, Community-Management, monatliche Analysen und Leistungsberichte, Verwaltung und Optimierung von Werbekampagnen sowie maßgeschneiderte Lösungen.  Das Unternehmen bietet auch "Immobilien Packete" und "Media VIP Packete" an, was darauf hindeutet, dass sie möglicherweise im Bereich Immobilienmarketing oder Medienpakete für VIP-Kunden tätig sind.
+
+**Zusammenfassend lässt sich sagen, dass der bereitgestellte Webseiteninhalt hauptsächlich Informationen über die Dienstleistungen des Unternehmens "Tawil Media" enthält und keine persönlichen Informationen wie Name einer Einzelperson, Geburtsdatum, Geburtsort, Geschlecht oder Kontaktdaten wie Adresse, Telefonnummer oder E-Mail-Adresse.**
+2025-03-05 01:22:05,323 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:22:05,323 - ERROR - Response text: Basierend auf dem gegebenen Webseiteninhalt, konnte ich folgende Informationen extrahieren. Es ist wichtig zu beachten, dass die Informationen sehr begrenzt sind und viele Felder leer bleiben müssen, da sie im Text nicht vorkommen.
+
+**Extrahierte Informationen:**
+
+- **vorname:**  Nicht gefunden
+- **nachname:** Tawil (Annahme basierend auf "Tawil Media")
+- **geburtsdatum:** Nicht gefunden
+- **geburtsort:** Nicht gefunden
+- **geschlecht:** Nicht gefunden
+- **adresse:** Nicht gefunden
+    - **straße:** Nicht gefunden
+    - **hausnummer:** Nicht gefunden
+    - **postleitzahl:** Nicht gefunden
+    - **ort:** Nicht gefunden
+- **telefonnummer:** Nicht gefunden
+- **email:** Nicht gefunden
+- **beschreibung:** Tawil Media scheint sich mit "Hochzeit Bilder" (Hochzeitsfotos) zu beschäftigen. Es könnte sich um ein Unternehmen oder eine Person handeln, die Hochzeitsfotografie oder -videografie anbietet.  Die Webseite scheint ein Portfolio zu sein, in dem Projekte präsentiert werden können.
+
+**Zusammenfassend lässt sich sagen, dass der bereitgestellte Webseiteninhalt sehr spärlich ist und hauptsächlich aus dem Titel "Hochzeit Bilder | Tawil Media" und generischen Portfolio-Anweisungen besteht.  Es sind kaum persönliche oder unternehmensbezogene Informationen direkt aus diesem kurzen Text extrahierbar.**
+
+Um mehr Informationen zu erhalten, müsste man die Webseite selbst besuchen und weitere Seiten oder Kontaktinformationen analysieren, die auf der Seite möglicherweise vorhanden sind, aber nicht im gegebenen Textausschnitt.
+2025-03-05 01:22:05,323 - INFO - Crawling completed. 10 pages processed.
+2025-03-05 01:22:05,324 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250305_012205.json
+2025-03-05 01:24:25,274 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:24:33,250 - INFO - Starting crawl for: url
+2025-03-05 01:24:33,250 - INFO - ====== WebDriver manager ======
+2025-03-05 01:24:33,891 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:24:33,963 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:24:34,038 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 01:24:35,018 - INFO - Browser initialized successfully
+2025-03-05 01:24:35,018 - INFO - Crawling page 1/10: url
+2025-03-05 01:24:35,020 - ERROR - Error getting content from url: Message: invalid argument
+  (Session info: chrome=133.0.6943.142)
+Stacktrace:
+	GetHandleVerifier [0x00BB0B43+25139]
+	(No symbol) [0x00B413F4]
+	(No symbol) [0x00A20340]
+	(No symbol) [0x00A109E6]
+	(No symbol) [0x00A0F095]
+	(No symbol) [0x00A0F80B]
+	(No symbol) [0x00A23FAE]
+	(No symbol) [0x00AAF427]
+	(No symbol) [0x00A8CFCC]
+	(No symbol) [0x00AAE778]
+	(No symbol) [0x00A8CDC6]
+	(No symbol) [0x00A5BDE9]
+	(No symbol) [0x00A5D124]
+	GetHandleVerifier [0x00EB4373+3185251]
+	GetHandleVerifier [0x00ED291A+3309578]
+	GetHandleVerifier [0x00ECCF42+3286578]
+	GetHandleVerifier [0x00C47AE0+643536]
+	(No symbol) [0x00B4A20D]
+	(No symbol) [0x00B470B8]
+	(No symbol) [0x00B47257]
+	(No symbol) [0x00B39E00]
+	BaseThreadInitThunk [0x76F25D49+25]
+	RtlInitializeExceptionChain [0x7758CDEB+107]
+	RtlGetAppContainerNamedObjectPath [0x7758CD71+561]
+
+2025-03-05 01:24:35,020 - INFO - Progress: 1/10 pages processed
+2025-03-05 01:24:37,021 - INFO - Crawling completed. 1 pages processed.
+2025-03-05 01:24:37,021 - INFO - Results saved to: scraped_results\_20250305_012437.json
+2025-03-05 01:26:32,745 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:28:51,064 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:29:08,848 - INFO - Starting crawl for: https://www.tawil-media.de/
+2025-03-05 01:29:08,848 - INFO - ====== WebDriver manager ======
+2025-03-05 01:29:09,488 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:29:09,556 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:29:09,625 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 01:29:10,657 - INFO - Browser initialized successfully
+2025-03-05 01:29:10,657 - INFO - Crawling page 1/10: https://www.tawil-media.de/
+2025-03-05 01:29:11,241 - INFO - Progress (Content Collection): 1/10 pages processed
+2025-03-05 01:29:13,242 - INFO - Crawling page 2/10: https://www.tawil-media.de/about-3
+2025-03-05 01:29:13,498 - INFO - Progress (Content Collection): 2/10 pages processed
+2025-03-05 01:29:15,499 - INFO - Crawling page 3/10: https://www.tawil-media.de/blank-1
+2025-03-05 01:29:15,912 - INFO - Progress (Content Collection): 3/10 pages processed
+2025-03-05 01:29:17,912 - INFO - Crawling page 4/10: https://www.tawil-media.de/services-5
+2025-03-05 01:29:18,205 - INFO - Progress (Content Collection): 4/10 pages processed
+2025-03-05 01:29:20,206 - INFO - Crawling page 5/10: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 01:29:20,461 - INFO - Progress (Content Collection): 5/10 pages processed
+2025-03-05 01:29:22,462 - INFO - Crawling page 6/10: https://www.tawil-media.de/portfolio
+2025-03-05 01:29:23,250 - INFO - Progress (Content Collection): 6/10 pages processed
+2025-03-05 01:29:25,251 - INFO - Crawling page 7/10: https://www.tawil-media.de/datenschutzerkl%C3%A4rung
+2025-03-05 01:29:25,652 - INFO - Progress (Content Collection): 7/10 pages processed
+2025-03-05 01:29:27,653 - INFO - Crawling page 8/10: https://www.tawil-media.de/agbs
+2025-03-05 01:29:27,939 - INFO - Progress (Content Collection): 8/10 pages processed
+2025-03-05 01:29:29,940 - INFO - Crawling page 9/10: https://www.tawil-media.de/impressum
+2025-03-05 01:29:30,187 - INFO - Progress (Content Collection): 9/10 pages processed
+2025-03-05 01:29:32,187 - INFO - Crawling page 10/10: https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder
+2025-03-05 01:29:32,871 - INFO - Progress (Content Collection): 10/10 pages processed
+2025-03-05 01:29:34,872 - INFO - Content collection completed. 10 pages processed. Starting Batch Analysis...
+2025-03-05 01:29:34,872 - INFO - Analyzing content from: https://www.tawil-media.de/
+2025-03-05 01:29:40,180 - INFO - Analysis for https://www.tawil-media.de/ completed and merged.
+2025-03-05 01:29:40,180 - INFO - Analyzing content from: https://www.tawil-media.de/about-3
+2025-03-05 01:29:43,140 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:29:43,140 - ERROR - Response text: Basierend auf dem Webseiteninhalt konnte ich folgende Informationen extrahieren:
+
+- vorname: nicht gefunden
+- nachname: nicht gefunden
+- geburtsdatum: nicht gefunden
+- geburtsort: nicht gefunden
+- geschlecht: nicht gefunden
+- adresse: nicht gefunden
+- telefonnummer: nicht gefunden
+- email: nicht gefunden
+- beschreibung: Tawil Media ist ein Unternehmen, das erstklassige Medienproduktion und digitales Marketing anbietet. Sie beschreiben sich als Quelle für atemberaubende visuelle Inhalte und effektive Marketingstrategien. Ihr Team von Experten ist bestrebt, Botschaften herausragend zu präsentieren und Kundenziele zu erreichen. Ihre Werte sind Kreativität, Exzellenz und Kundenzufriedenheit. Ihre Mission ist es, herausragende Medienproduktion und digitales Marketing zu schaffen, die Botschaften unvergesslich machen und Kunden dabei zu helfen, ihre Visionen und Ziele zu erreichen. Ihre Vision ist es, die Grenzen der Kreativität und Innovation in der Medienproduktion und im digitalen Marketing zu erweitern und eine führende Kraft in der Branche zu sein.
+2025-03-05 01:29:43,140 - INFO - Analysis for https://www.tawil-media.de/about-3 completed and merged.
+2025-03-05 01:29:43,140 - INFO - Analyzing content from: https://www.tawil-media.de/blank-1
+2025-03-05 01:29:49,616 - INFO - Analysis for https://www.tawil-media.de/blank-1 completed and merged.
+2025-03-05 01:29:49,616 - INFO - Analyzing content from: https://www.tawil-media.de/services-5
+2025-03-05 01:29:54,336 - INFO - Analysis for https://www.tawil-media.de/services-5 completed and merged.
+2025-03-05 01:29:54,336 - INFO - Analyzing content from: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 01:29:57,896 - INFO - Analysis for https://www.tawil-media.de/kopie-von-social-media completed and merged.
+2025-03-05 01:29:57,897 - INFO - Analyzing content from: https://www.tawil-media.de/portfolio
+2025-03-05 01:30:03,115 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:30:03,116 - ERROR - Response text: Basierend auf dem gegebenen Webseiteninhalt habe ich folgende Informationen extrahiert:
+
+- vorname: Nicht gefunden
+- nachname: Nicht gefunden
+- geburtsdatum: Nicht gefunden
+- geburtsort: Nicht gefunden
+- geschlecht: Nicht gefunden
+- adresse: Nicht gefunden
+    - straße: Nicht gefunden
+    - hausnummer: Nicht gefunden
+    - postleitzahl: Nicht gefunden
+    - ort: Nicht gefunden
+- telefonnummer: Nicht gefunden
+- email: Nicht gefunden
+- beschreibung: Portfolio von Tawil Media, das eine Auswahl von Arbeiten und Projekte präsentiert. Der Fokus liegt auf Medienarbeiten, wie aus dem Namen "Tawil Media" und der Beschreibung "meine Tätigkeit" hervorgeht. Es handelt sich um eine Webseite, die dazu dient, die eigenen Projekte und Fähigkeiten zu präsentieren.
+2025-03-05 01:30:03,116 - INFO - Analysis for https://www.tawil-media.de/portfolio completed and merged.
+2025-03-05 01:30:03,116 - INFO - Analyzing content from: https://www.tawil-media.de/datenschutzerkl%C3%A4rung
+2025-03-05 01:30:06,125 - INFO - Analysis for https://www.tawil-media.de/datenschutzerkl%C3%A4rung completed and merged.
+2025-03-05 01:30:06,125 - INFO - Analyzing content from: https://www.tawil-media.de/agbs
+2025-03-05 01:30:09,323 - INFO - Analysis for https://www.tawil-media.de/agbs completed and merged.
+2025-03-05 01:30:09,323 - INFO - Analyzing content from: https://www.tawil-media.de/impressum
+2025-03-05 01:30:13,093 - INFO - Analysis for https://www.tawil-media.de/impressum completed and merged.
+2025-03-05 01:30:13,093 - INFO - Analyzing content from: https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder
+2025-03-05 01:30:20,337 - ERROR - Error parsing Gemini JSON response: Expecting value: line 1 column 1 (char 0)
+2025-03-05 01:30:20,379 - INFO - Analysis for https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder completed and merged.
+2025-03-05 01:30:20,379 - INFO - Batch Analysis completed.
+2025-03-05 01:30:20,379 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250305_013020.json
+2025-03-05 01:37:49,827 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:41:00,978 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:43:48,725 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:43:48,726 - INFO - ====== WebDriver manager ======
+2025-03-05 01:43:49,368 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:43:49,468 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:43:49,539 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 01:43:50,515 - INFO - Browser initialized successfully
+2025-03-05 01:43:50,515 - INFO - Crawling page 1/10: https://de.wikipedia.org/wiki/Berlin
+2025-03-05 01:43:51,737 - INFO - Page content saved to: raw_page_content\page_1.txt
+2025-03-05 01:44:01,934 - INFO - Progress: 1/10 pages processed
+2025-03-05 01:44:03,935 - INFO - Crawling page 2/10: https://de.wikipedia.org/wiki/Berlin#
+2025-03-05 01:44:04,293 - INFO - Page content saved to: raw_page_content\page_2.txt
+2025-03-05 01:44:15,152 - INFO - Progress: 2/10 pages processed
+2025-03-05 01:44:17,153 - INFO - Crawling page 3/10: https://de.wikipedia.org/wiki/Berlin#Vorlage_Gesprochene_Version
+2025-03-05 01:44:17,546 - INFO - Page content saved to: raw_page_content\page_3.txt
+2025-03-05 01:44:28,670 - INFO - Progress: 3/10 pages processed
+2025-03-05 01:44:30,671 - INFO - Crawling page 4/10: https://de.wikipedia.org/wiki/Berlin#Vorlage_Lesenswert
+2025-03-05 01:44:30,995 - INFO - Page content saved to: raw_page_content\page_4.txt
+2025-03-05 01:44:40,890 - INFO - Progress: 4/10 pages processed
+2025-03-05 01:44:42,891 - INFO - Crawling page 5/10: https://de.wikipedia.org/wiki/Berlin#mw-head
+2025-03-05 01:44:43,252 - INFO - Page content saved to: raw_page_content\page_5.txt
+2025-03-05 01:47:47,692 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:47:47,693 - INFO - ====== WebDriver manager ======
+2025-03-05 01:47:48,330 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:47:48,395 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:47:48,475 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 01:47:49,514 - INFO - Browser initialized successfully
+2025-03-05 01:47:49,514 - INFO - Crawling page 1/10: https://www.tawil-media.de/
+2025-03-05 01:47:49,936 - INFO - Page content saved to: raw_page_content\page_1.txt
+2025-03-05 01:47:50,084 - INFO - Progress: 1/10 pages processed
+2025-03-05 01:47:52,085 - INFO - Crawling page 2/10: https://www.tawil-media.de/about-3
+2025-03-05 01:47:52,212 - INFO - Page content saved to: raw_page_content\page_2.txt
+2025-03-05 01:47:52,336 - INFO - Progress: 2/10 pages processed
+2025-03-05 01:47:54,336 - INFO - Crawling page 3/10: https://www.tawil-media.de/blank-1
+2025-03-05 01:47:54,539 - INFO - Page content saved to: raw_page_content\page_3.txt
+2025-03-05 01:47:54,675 - INFO - Progress: 3/10 pages processed
+2025-03-05 01:47:56,676 - INFO - Crawling page 4/10: https://www.tawil-media.de/services-5
+2025-03-05 01:47:56,819 - INFO - Page content saved to: raw_page_content\page_4.txt
+2025-03-05 01:47:56,960 - INFO - Progress: 4/10 pages processed
+2025-03-05 01:47:58,960 - INFO - Crawling page 5/10: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 01:47:59,082 - INFO - Page content saved to: raw_page_content\page_5.txt
+2025-03-05 01:47:59,209 - INFO - Progress: 5/10 pages processed
+2025-03-05 01:48:01,210 - INFO - Crawling page 6/10: https://www.tawil-media.de/portfolio
+2025-03-05 01:48:01,592 - INFO - Page content saved to: raw_page_content\page_6.txt
+2025-03-05 01:48:02,072 - INFO - Progress: 6/10 pages processed
+2025-03-05 01:48:04,073 - INFO - Crawling page 7/10: https://www.tawil-media.de/datenschutzerkl%C3%A4rung
+2025-03-05 01:48:04,228 - INFO - Page content saved to: raw_page_content\page_7.txt
+2025-03-05 01:48:04,477 - INFO - Progress: 7/10 pages processed
+2025-03-05 01:48:06,477 - INFO - Crawling page 8/10: https://www.tawil-media.de/agbs
+2025-03-05 01:48:06,640 - INFO - Page content saved to: raw_page_content\page_8.txt
+2025-03-05 01:48:06,769 - INFO - Progress: 8/10 pages processed
+2025-03-05 01:48:08,770 - INFO - Crawling page 9/10: https://www.tawil-media.de/impressum
+2025-03-05 01:48:09,159 - INFO - Page content saved to: raw_page_content\page_9.txt
+2025-03-05 01:48:09,276 - INFO - Progress: 9/10 pages processed
+2025-03-05 01:48:11,277 - INFO - Crawling page 10/10: https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder
+2025-03-05 01:48:11,609 - INFO - Page content saved to: raw_page_content\page_10.txt
+2025-03-05 01:48:11,898 - INFO - Progress: 10/10 pages processed
+2025-03-05 01:48:13,899 - INFO - Crawling completed. 10 pages processed.
+2025-03-05 01:48:18,092 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250305_014818.json
+2025-03-05 01:52:24,367 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:52:24,368 - INFO - ====== WebDriver manager ======
+2025-03-05 01:52:25,024 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:52:25,099 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:52:25,173 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 01:52:26,228 - INFO - Browser initialized successfully
+2025-03-05 01:52:26,228 - INFO - Crawling page 1/10: https://www.tawil-media.de/
+2025-03-05 01:52:26,837 - INFO - Progress: 1/10 pages processed
+2025-03-05 01:52:28,838 - INFO - Crawling page 2/10: https://www.tawil-media.de/about-3
+2025-03-05 01:52:29,088 - INFO - Progress: 2/10 pages processed
+2025-03-05 01:52:31,089 - INFO - Crawling page 3/10: https://www.tawil-media.de/blank-1
+2025-03-05 01:52:31,426 - INFO - Progress: 3/10 pages processed
+2025-03-05 01:52:33,427 - INFO - Crawling page 4/10: https://www.tawil-media.de/services-5
+2025-03-05 01:52:33,727 - INFO - Progress: 4/10 pages processed
+2025-03-05 01:52:35,728 - INFO - Crawling page 5/10: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 01:52:35,997 - INFO - Progress: 5/10 pages processed
+2025-03-05 01:52:37,998 - INFO - Crawling page 6/10: https://www.tawil-media.de/portfolio
+2025-03-05 01:52:39,087 - INFO - Progress: 6/10 pages processed
+2025-03-05 01:52:41,088 - INFO - Crawling page 7/10: https://www.tawil-media.de/datenschutzerkl%C3%A4rung
+2025-03-05 01:52:41,539 - INFO - Progress: 7/10 pages processed
+2025-03-05 01:52:43,540 - INFO - Crawling page 8/10: https://www.tawil-media.de/agbs
+2025-03-05 01:52:43,878 - INFO - Progress: 8/10 pages processed
+2025-03-05 01:52:45,879 - INFO - Crawling page 9/10: https://www.tawil-media.de/impressum
+2025-03-05 01:52:46,179 - INFO - Progress: 9/10 pages processed
+2025-03-05 01:52:48,179 - INFO - Crawling page 10/10: https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder
+2025-03-05 01:52:48,798 - INFO - Progress: 10/10 pages processed
+2025-03-05 01:52:50,799 - INFO - Crawling completed. 10 pages processed.
+2025-03-05 01:52:50,800 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-05 01:52:56,340 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250305_015256.json
+2025-03-05 01:56:50,565 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 01:56:50,565 - INFO - ====== WebDriver manager ======
+2025-03-05 01:56:51,184 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:56:51,259 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 01:56:51,324 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 01:56:52,363 - INFO - Browser initialized successfully
+2025-03-05 01:56:52,363 - INFO - Crawling page 1/10: https://startup-stuttgart.de/
+2025-03-05 01:56:55,527 - INFO - Progress: 1/10 pages processed
+2025-03-05 01:56:57,528 - INFO - Crawling page 2/10: https://startup-stuttgart.de/#content
+2025-03-05 01:56:57,634 - INFO - Progress: 2/10 pages processed
+2025-03-05 01:56:59,635 - INFO - Crawling page 3/10: https://startup-stuttgart.de/about/
+2025-03-05 01:57:01,592 - INFO - Progress: 3/10 pages processed
+2025-03-05 01:57:03,593 - INFO - Crawling page 4/10: https://startup-stuttgart.de/join/
+2025-03-05 01:57:05,355 - INFO - Progress: 4/10 pages processed
+2025-03-05 01:57:07,356 - INFO - Crawling page 5/10: https://startup-stuttgart.de/news/
+2025-03-05 01:57:09,665 - INFO - Progress: 5/10 pages processed
+2025-03-05 01:57:11,665 - INFO - Crawling page 6/10: https://startup-stuttgart.de/gruendergrillen/
+2025-03-05 01:57:13,631 - INFO - Progress: 6/10 pages processed
+2025-03-05 01:57:15,632 - INFO - Crawling page 7/10: https://startup-stuttgart.de/partner/
+2025-03-05 01:57:17,260 - INFO - Progress: 7/10 pages processed
+2025-03-05 01:57:19,261 - INFO - Crawling page 8/10: https://startup-stuttgart.de/elementor-16172/
+2025-03-05 01:57:20,950 - INFO - Progress: 8/10 pages processed
+2025-03-05 01:57:22,951 - INFO - Crawling page 9/10: https://startup-stuttgart.de/job-anlegen/
+2025-03-05 01:57:24,540 - INFO - Progress: 9/10 pages processed
+2025-03-05 01:57:26,541 - INFO - Crawling page 10/10: https://startup-stuttgart.de/datenschutzerklaerung/
+2025-03-05 01:57:28,097 - INFO - Progress: 10/10 pages processed
+2025-03-05 01:57:30,099 - INFO - Crawling completed. 10 pages processed.
+2025-03-05 01:57:30,099 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-05 01:57:37,702 - INFO - Results saved to: scraped_results\startup-stuttgart_de_20250305_015737.json
+2025-03-05 02:04:23,452 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 02:04:23,453 - INFO - ====== WebDriver manager ======
+2025-03-05 02:04:24,177 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:04:24,241 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:04:24,312 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 02:04:25,349 - INFO - Browser initialized successfully
+2025-03-05 02:04:25,349 - INFO - Crawling page 1/10: https://startup-stuttgart.de/
+2025-03-05 02:04:28,639 - INFO - Progress: 1/10 pages processed
+2025-03-05 02:04:29,461 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Eine vorhandene Verbindung wurde vom Remotehost geschlossen', None, 10054, None)': /session/71c01aad1b86e72faac5cfa05b63cb9f
+2025-03-05 02:04:44,080 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 02:04:44,080 - INFO - ====== WebDriver manager ======
+2025-03-05 02:04:44,716 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:04:44,789 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:04:44,860 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 02:04:45,913 - INFO - Browser initialized successfully
+2025-03-05 02:04:45,913 - INFO - Crawling page 1/5: https://startup-stuttgart.de/
+2025-03-05 02:04:49,054 - INFO - Progress: 1/5 pages processed
+2025-03-05 02:04:51,055 - INFO - Crawling page 2/5: https://startup-stuttgart.de/#content
+2025-03-05 02:04:51,161 - INFO - Progress: 2/5 pages processed
+2025-03-05 02:04:53,162 - INFO - Crawling page 3/5: https://startup-stuttgart.de/about/
+2025-03-05 02:04:55,463 - INFO - Progress: 3/5 pages processed
+2025-03-05 02:04:57,464 - INFO - Crawling page 4/5: https://startup-stuttgart.de/join/
+2025-03-05 02:04:59,268 - INFO - Progress: 4/5 pages processed
+2025-03-05 02:05:01,269 - INFO - Crawling page 5/5: https://startup-stuttgart.de/news/
+2025-03-05 02:05:03,341 - INFO - Progress: 5/5 pages processed
+2025-03-05 02:05:05,343 - INFO - Crawling completed. 5 pages processed.
+2025-03-05 02:05:05,344 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-05 02:05:24,290 - ERROR - Error in Gemini analysis: 'list' object has no attribute 'setdefault'
+2025-03-05 02:05:24,291 - INFO - Results saved to: scraped_results\startup-stuttgart_de_20250305_020524.json
+2025-03-05 02:07:03,324 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 02:07:03,324 - INFO - ====== WebDriver manager ======
+2025-03-05 02:07:03,966 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:07:04,029 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:07:04,094 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 02:07:17,160 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 02:07:17,161 - INFO - ====== WebDriver manager ======
+2025-03-05 02:07:17,793 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:07:17,866 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:07:17,935 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 02:07:18,915 - INFO - Browser initialized successfully
+2025-03-05 02:07:18,915 - INFO - Crawling page 1/10: https://startup-stuttgart.de/
+2025-03-05 02:07:22,719 - INFO - Progress: 1/10 pages processed
+2025-03-05 02:07:22,719 - INFO - Crawling page 2/10: https://startup-stuttgart.de/#content
+2025-03-05 02:07:22,826 - INFO - Progress: 2/10 pages processed
+2025-03-05 02:07:22,826 - INFO - Crawling page 3/10: https://startup-stuttgart.de/about/
+2025-03-05 02:07:25,244 - INFO - Progress: 3/10 pages processed
+2025-03-05 02:07:25,244 - INFO - Crawling page 4/10: https://startup-stuttgart.de/join/
+2025-03-05 02:07:27,224 - INFO - Progress: 4/10 pages processed
+2025-03-05 02:07:27,224 - INFO - Crawling page 5/10: https://startup-stuttgart.de/news/
+2025-03-05 02:07:29,186 - INFO - Progress: 5/10 pages processed
+2025-03-05 02:07:29,186 - INFO - Crawling page 6/10: https://startup-stuttgart.de/gruendergrillen/
+2025-03-05 02:07:31,632 - INFO - Progress: 6/10 pages processed
+2025-03-05 02:07:31,632 - INFO - Crawling page 7/10: https://startup-stuttgart.de/partner/
+2025-03-05 02:07:33,173 - INFO - Progress: 7/10 pages processed
+2025-03-05 02:07:33,174 - INFO - Crawling page 8/10: https://startup-stuttgart.de/elementor-16172/
+2025-03-05 02:07:34,625 - INFO - Progress: 8/10 pages processed
+2025-03-05 02:07:34,625 - INFO - Crawling page 9/10: https://startup-stuttgart.de/job-anlegen/
+2025-03-05 02:07:36,255 - INFO - Progress: 9/10 pages processed
+2025-03-05 02:07:36,255 - INFO - Crawling page 10/10: https://startup-stuttgart.de/datenschutzerklaerung/
+2025-03-05 02:07:37,803 - INFO - Progress: 10/10 pages processed
+2025-03-05 02:07:37,803 - INFO - Crawling completed. 10 pages processed.
+2025-03-05 02:07:37,803 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-05 02:07:53,998 - INFO - Results saved to: scraped_results\startup-stuttgart_de_20250305_020753.json
+2025-03-05 02:15:53,393 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 02:15:53,393 - INFO - ====== WebDriver manager ======
+2025-03-05 02:15:54,104 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:15:54,173 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:15:54,250 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 02:15:55,318 - INFO - Browser initialized successfully
+2025-03-05 02:15:55,319 - INFO - Crawling page 1/10: https://crawl4ai.com/mkdocs/
+2025-03-05 02:15:58,572 - INFO - Progress: 1/10 pages processed
+2025-03-05 02:15:58,572 - INFO - Crawling page 2/10: https://crawl4ai.com/mkdocs/core/quickstart/
+2025-03-05 02:15:59,354 - INFO - Progress: 2/10 pages processed
+2025-03-05 02:15:59,354 - INFO - Crawling page 3/10: https://crawl4ai.com/mkdocs/#
+2025-03-05 02:15:59,697 - INFO - Progress: 3/10 pages processed
+2025-03-05 02:15:59,697 - INFO - Crawling page 4/10: https://crawl4ai.com/mkdocs/core/installation/
+2025-03-05 02:16:00,193 - INFO - Progress: 4/10 pages processed
+2025-03-05 02:16:00,193 - INFO - Crawling page 5/10: https://crawl4ai.com/mkdocs/core/docker-deployment/
+2025-03-05 02:16:01,061 - INFO - Progress: 5/10 pages processed
+2025-03-05 02:16:01,062 - INFO - Crawling page 6/10: https://crawl4ai.com/mkdocs/blog/
+2025-03-05 02:16:01,513 - INFO - Progress: 6/10 pages processed
+2025-03-05 02:16:01,513 - INFO - Crawling page 7/10: https://crawl4ai.com/mkdocs/core/cli/
+2025-03-05 02:16:02,094 - INFO - Progress: 7/10 pages processed
+2025-03-05 02:16:02,094 - INFO - Crawling page 8/10: https://crawl4ai.com/mkdocs/core/simple-crawling/
+2025-03-05 02:16:02,626 - INFO - Progress: 8/10 pages processed
+2025-03-05 02:16:02,627 - INFO - Crawling page 9/10: https://crawl4ai.com/mkdocs/core/deep-crawling/
+2025-03-05 02:16:03,477 - INFO - Progress: 9/10 pages processed
+2025-03-05 02:16:03,477 - INFO - Crawling page 10/10: https://crawl4ai.com/mkdocs/core/crawler-result/
+2025-03-05 02:16:04,076 - INFO - Progress: 10/10 pages processed
+2025-03-05 02:16:04,076 - INFO - Crawling completed. 10 pages processed.
+2025-03-05 02:16:04,077 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-05 02:16:09,322 - ERROR - Error in Gemini analysis: 'list' object has no attribute 'items'
+2025-03-05 02:16:09,323 - INFO - Results saved to: scraped_results\crawl4ai_com_20250305_021609.json
+2025-03-05 02:17:01,020 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 02:17:01,020 - INFO - ====== WebDriver manager ======
+2025-03-05 02:17:01,697 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:17:01,765 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:17:01,840 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 02:17:02,882 - INFO - Browser initialized successfully
+2025-03-05 02:17:02,882 - INFO - Crawling page 1/50: https://crawl4ai.com/mkdocs/
+2025-03-05 02:17:05,912 - INFO - Progress: 1/50 pages processed
+2025-03-05 02:17:05,912 - INFO - Crawling page 2/50: https://crawl4ai.com/mkdocs/core/quickstart/
+2025-03-05 02:17:06,490 - INFO - Progress: 2/50 pages processed
+2025-03-05 02:17:06,490 - INFO - Crawling page 3/50: https://crawl4ai.com/mkdocs/#
+2025-03-05 02:17:06,867 - INFO - Progress: 3/50 pages processed
+2025-03-05 02:17:06,867 - INFO - Crawling page 4/50: https://crawl4ai.com/mkdocs/core/installation/
+2025-03-05 02:17:07,329 - INFO - Progress: 4/50 pages processed
+2025-03-05 02:17:07,330 - INFO - Crawling page 5/50: https://crawl4ai.com/mkdocs/core/docker-deployment/
+2025-03-05 02:17:08,184 - INFO - Progress: 5/50 pages processed
+2025-03-05 02:17:08,185 - INFO - Crawling page 6/50: https://crawl4ai.com/mkdocs/blog/
+2025-03-05 02:17:08,631 - INFO - Progress: 6/50 pages processed
+2025-03-05 02:17:08,631 - INFO - Crawling page 7/50: https://crawl4ai.com/mkdocs/core/cli/
+2025-03-05 02:17:09,197 - INFO - Progress: 7/50 pages processed
+2025-03-05 02:17:09,197 - INFO - Crawling page 8/50: https://crawl4ai.com/mkdocs/core/simple-crawling/
+2025-03-05 02:17:09,735 - INFO - Progress: 8/50 pages processed
+2025-03-05 02:17:09,735 - INFO - Crawling page 9/50: https://crawl4ai.com/mkdocs/core/deep-crawling/
+2025-03-05 02:17:10,545 - INFO - Progress: 9/50 pages processed
+2025-03-05 02:17:10,546 - INFO - Crawling page 10/50: https://crawl4ai.com/mkdocs/core/crawler-result/
+2025-03-05 02:17:11,275 - INFO - Progress: 10/50 pages processed
+2025-03-05 02:17:11,275 - INFO - Crawling page 11/50: https://crawl4ai.com/mkdocs/core/browser-crawler-config/
+2025-03-05 02:17:11,800 - INFO - Progress: 11/50 pages processed
+2025-03-05 02:17:11,800 - INFO - Crawling page 12/50: https://crawl4ai.com/mkdocs/core/markdown-generation/
+2025-03-05 02:17:12,562 - INFO - Progress: 12/50 pages processed
+2025-03-05 02:17:12,562 - INFO - Crawling page 13/50: https://crawl4ai.com/mkdocs/core/fit-markdown/
+2025-03-05 02:17:13,089 - INFO - Progress: 13/50 pages processed
+2025-03-05 02:17:13,089 - INFO - Crawling page 14/50: https://crawl4ai.com/mkdocs/core/page-interaction/
+2025-03-05 02:17:13,631 - INFO - Progress: 14/50 pages processed
+2025-03-05 02:17:13,631 - INFO - Crawling page 15/50: https://crawl4ai.com/mkdocs/core/content-selection/
+2025-03-05 02:17:14,407 - INFO - Progress: 15/50 pages processed
+2025-03-05 02:17:14,408 - INFO - Crawling page 16/50: https://crawl4ai.com/mkdocs/core/cache-modes/
+2025-03-05 02:17:14,858 - INFO - Progress: 16/50 pages processed
+2025-03-05 02:17:14,858 - INFO - Crawling page 17/50: https://crawl4ai.com/mkdocs/core/local-files/
+2025-03-05 02:17:15,348 - INFO - Progress: 17/50 pages processed
+2025-03-05 02:17:15,348 - INFO - Crawling page 18/50: https://crawl4ai.com/mkdocs/core/link-media/
+2025-03-05 02:17:15,874 - INFO - Progress: 18/50 pages processed
+2025-03-05 02:17:15,874 - INFO - Crawling page 19/50: https://crawl4ai.com/mkdocs/advanced/advanced-features/
+2025-03-05 02:17:16,439 - INFO - Progress: 19/50 pages processed
+2025-03-05 02:17:16,440 - INFO - Crawling page 20/50: https://crawl4ai.com/mkdocs/advanced/file-downloading/
+2025-03-05 02:17:16,918 - INFO - Progress: 20/50 pages processed
+2025-03-05 02:17:16,919 - INFO - Crawling page 21/50: https://crawl4ai.com/mkdocs/advanced/lazy-loading/
+2025-03-05 02:17:17,376 - INFO - Progress: 21/50 pages processed
+2025-03-05 02:17:17,376 - INFO - Crawling page 22/50: https://crawl4ai.com/mkdocs/advanced/hooks-auth/
+2025-03-05 02:17:17,877 - INFO - Progress: 22/50 pages processed
+2025-03-05 02:17:17,877 - INFO - Crawling page 23/50: https://crawl4ai.com/mkdocs/advanced/proxy-security/
+2025-03-05 02:17:18,407 - INFO - Progress: 23/50 pages processed
+2025-03-05 02:17:18,407 - INFO - Crawling page 24/50: https://crawl4ai.com/mkdocs/advanced/session-management/
+2025-03-05 02:17:18,916 - INFO - Progress: 24/50 pages processed
+2025-03-05 02:17:18,916 - INFO - Crawling page 25/50: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/
+2025-03-05 02:17:19,463 - INFO - Progress: 25/50 pages processed
+2025-03-05 02:17:19,463 - INFO - Crawling page 26/50: https://crawl4ai.com/mkdocs/advanced/crawl-dispatcher/
+2025-03-05 02:17:20,960 - INFO - Progress: 26/50 pages processed
+2025-03-05 02:17:20,960 - INFO - Crawling page 27/50: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/
+2025-03-05 02:17:21,501 - INFO - Progress: 27/50 pages processed
+2025-03-05 02:17:21,501 - INFO - Crawling page 28/50: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/
+2025-03-05 02:17:21,983 - INFO - Progress: 28/50 pages processed
+2025-03-05 02:17:21,983 - INFO - Crawling page 29/50: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/
+2025-03-05 02:17:22,555 - INFO - Progress: 29/50 pages processed
+2025-03-05 02:17:22,555 - INFO - Crawling page 30/50: https://crawl4ai.com/mkdocs/extraction/llm-strategies/
+2025-03-05 02:17:23,092 - INFO - Progress: 30/50 pages processed
+2025-03-05 02:17:23,093 - INFO - Crawling page 31/50: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/
+2025-03-05 02:17:23,594 - INFO - Progress: 31/50 pages processed
+2025-03-05 02:17:23,594 - INFO - Crawling page 32/50: https://crawl4ai.com/mkdocs/extraction/chunking/
+2025-03-05 02:17:24,064 - INFO - Progress: 32/50 pages processed
+2025-03-05 02:17:24,064 - INFO - Crawling page 33/50: https://crawl4ai.com/mkdocs/api/async-webcrawler/
+2025-03-05 02:17:24,615 - INFO - Progress: 33/50 pages processed
+2025-03-05 02:17:24,615 - INFO - Crawling page 34/50: https://crawl4ai.com/mkdocs/api/arun/
+2025-03-05 02:17:25,136 - INFO - Progress: 34/50 pages processed
+2025-03-05 02:17:25,137 - INFO - Crawling page 35/50: https://crawl4ai.com/mkdocs/api/arun_many/
+2025-03-05 02:17:25,687 - INFO - Progress: 35/50 pages processed
+2025-03-05 02:17:25,688 - INFO - Crawling page 36/50: https://crawl4ai.com/mkdocs/api/parameters/
+2025-03-05 02:17:26,218 - INFO - Progress: 36/50 pages processed
+2025-03-05 02:17:26,218 - INFO - Crawling page 37/50: https://crawl4ai.com/mkdocs/api/crawl-result/
+2025-03-05 02:17:26,772 - INFO - Progress: 37/50 pages processed
+2025-03-05 02:17:26,772 - INFO - Crawling page 38/50: https://crawl4ai.com/mkdocs/api/strategies/
+2025-03-05 02:17:27,337 - INFO - Progress: 38/50 pages processed
+2025-03-05 02:17:27,337 - INFO - Crawling page 39/50: https://crawl4ai.com/mkdocs/#crawl4ai-open-source-llm-friendly-web-crawler-scraper
+2025-03-05 02:17:27,672 - INFO - Progress: 39/50 pages processed
+2025-03-05 02:17:27,672 - INFO - Crawling page 40/50: https://crawl4ai.com/mkdocs/#quick-start
+2025-03-05 02:17:27,863 - INFO - Progress: 40/50 pages processed
+2025-03-05 02:17:27,863 - INFO - Crawling page 41/50: https://crawl4ai.com/mkdocs/#what-does-crawl4ai-do
+2025-03-05 02:17:28,054 - INFO - Progress: 41/50 pages processed
+2025-03-05 02:17:28,054 - INFO - Crawling page 42/50: https://crawl4ai.com/mkdocs/#documentation-structure
+2025-03-05 02:17:28,247 - INFO - Progress: 42/50 pages processed
+2025-03-05 02:17:28,247 - INFO - Crawling page 43/50: https://crawl4ai.com/mkdocs/#how-you-can-support
+2025-03-05 02:17:28,445 - INFO - Progress: 43/50 pages processed
+2025-03-05 02:17:28,445 - INFO - Crawling page 44/50: https://crawl4ai.com/mkdocs/#quick-links
+2025-03-05 02:17:28,639 - INFO - Progress: 44/50 pages processed
+2025-03-05 02:17:28,639 - INFO - Crawling page 45/50: https://crawl4ai.com/mkdocs/core/quickstart/#
+2025-03-05 02:17:29,002 - INFO - Progress: 45/50 pages processed
+2025-03-05 02:17:29,002 - INFO - Crawling page 46/50: https://crawl4ai.com/mkdocs/core/quickstart/#getting-started-with-crawl4ai
+2025-03-05 02:17:29,196 - INFO - Progress: 46/50 pages processed
+2025-03-05 02:17:29,196 - INFO - Crawling page 47/50: https://crawl4ai.com/mkdocs/core/quickstart/#1-introduction
+2025-03-05 02:17:29,388 - INFO - Progress: 47/50 pages processed
+2025-03-05 02:17:29,388 - INFO - Crawling page 48/50: https://crawl4ai.com/mkdocs/core/quickstart/#2-your-first-crawl
+2025-03-05 02:17:29,577 - INFO - Progress: 48/50 pages processed
+2025-03-05 02:17:29,577 - INFO - Crawling page 49/50: https://crawl4ai.com/mkdocs/core/quickstart/#3-basic-configuration-light-introduction
+2025-03-05 02:17:29,764 - INFO - Progress: 49/50 pages processed
+2025-03-05 02:17:29,765 - INFO - Crawling page 50/50: https://crawl4ai.com/mkdocs/core/quickstart/#4-generating-markdown-output
+2025-03-05 02:17:29,948 - INFO - Progress: 50/50 pages processed
+2025-03-05 02:17:29,948 - INFO - Crawling completed. 50 pages processed.
+2025-03-05 02:17:29,950 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-05 02:17:43,677 - ERROR - Error in Gemini analysis: 'list' object has no attribute 'items'
+2025-03-05 02:17:43,678 - INFO - Results saved to: scraped_results\crawl4ai_com_20250305_021743.json
+2025-03-05 02:18:16,627 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 02:18:16,628 - INFO - ====== WebDriver manager ======
+2025-03-05 02:18:17,277 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:18:17,348 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 02:18:17,422 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 02:18:18,471 - INFO - Browser initialized successfully
+2025-03-05 02:18:18,471 - INFO - Crawling page 1/1000: https://crawl4ai.com/mkdocs/
+2025-03-05 02:18:21,693 - INFO - Progress: 1/1000 pages processed
+2025-03-05 02:18:21,693 - INFO - Crawling page 2/1000: https://crawl4ai.com/mkdocs/core/quickstart/
+2025-03-05 02:18:22,450 - INFO - Progress: 2/1000 pages processed
+2025-03-05 02:18:22,450 - INFO - Crawling page 3/1000: https://crawl4ai.com/mkdocs/#
+2025-03-05 02:18:22,772 - INFO - Progress: 3/1000 pages processed
+2025-03-05 02:18:22,772 - INFO - Crawling page 4/1000: https://crawl4ai.com/mkdocs/core/installation/
+2025-03-05 02:18:23,234 - INFO - Progress: 4/1000 pages processed
+2025-03-05 02:18:23,234 - INFO - Crawling page 5/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/
+2025-03-05 02:18:23,901 - INFO - Progress: 5/1000 pages processed
+2025-03-05 02:18:23,901 - INFO - Crawling page 6/1000: https://crawl4ai.com/mkdocs/blog/
+2025-03-05 02:18:24,340 - INFO - Progress: 6/1000 pages processed
+2025-03-05 02:18:24,340 - INFO - Crawling page 7/1000: https://crawl4ai.com/mkdocs/core/cli/
+2025-03-05 02:18:24,898 - INFO - Progress: 7/1000 pages processed
+2025-03-05 02:18:24,898 - INFO - Crawling page 8/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/
+2025-03-05 02:18:25,408 - INFO - Progress: 8/1000 pages processed
+2025-03-05 02:18:25,408 - INFO - Crawling page 9/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/
+2025-03-05 02:18:26,180 - INFO - Progress: 9/1000 pages processed
+2025-03-05 02:18:26,180 - INFO - Crawling page 10/1000: https://crawl4ai.com/mkdocs/core/crawler-result/
+2025-03-05 02:18:26,705 - INFO - Progress: 10/1000 pages processed
+2025-03-05 02:18:26,705 - INFO - Crawling page 11/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/
+2025-03-05 02:18:27,236 - INFO - Progress: 11/1000 pages processed
+2025-03-05 02:18:27,236 - INFO - Crawling page 12/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/
+2025-03-05 02:18:27,987 - INFO - Progress: 12/1000 pages processed
+2025-03-05 02:18:27,987 - INFO - Crawling page 13/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/
+2025-03-05 02:18:28,509 - INFO - Progress: 13/1000 pages processed
+2025-03-05 02:18:28,509 - INFO - Crawling page 14/1000: https://crawl4ai.com/mkdocs/core/page-interaction/
+2025-03-05 02:18:29,035 - INFO - Progress: 14/1000 pages processed
+2025-03-05 02:18:29,035 - INFO - Crawling page 15/1000: https://crawl4ai.com/mkdocs/core/content-selection/
+2025-03-05 02:18:29,788 - INFO - Progress: 15/1000 pages processed
+2025-03-05 02:18:29,788 - INFO - Crawling page 16/1000: https://crawl4ai.com/mkdocs/core/cache-modes/
+2025-03-05 02:18:30,315 - INFO - Progress: 16/1000 pages processed
+2025-03-05 02:18:30,315 - INFO - Crawling page 17/1000: https://crawl4ai.com/mkdocs/core/local-files/
+2025-03-05 02:18:30,821 - INFO - Progress: 17/1000 pages processed
+2025-03-05 02:18:30,821 - INFO - Crawling page 18/1000: https://crawl4ai.com/mkdocs/core/link-media/
+2025-03-05 02:18:31,342 - INFO - Progress: 18/1000 pages processed
+2025-03-05 02:18:31,342 - INFO - Crawling page 19/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/
+2025-03-05 02:18:31,902 - INFO - Progress: 19/1000 pages processed
+2025-03-05 02:18:31,902 - INFO - Crawling page 20/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/
+2025-03-05 02:18:32,383 - INFO - Progress: 20/1000 pages processed
+2025-03-05 02:18:32,383 - INFO - Crawling page 21/1000: https://crawl4ai.com/mkdocs/advanced/lazy-loading/
+2025-03-05 02:18:32,843 - INFO - Progress: 21/1000 pages processed
+2025-03-05 02:18:32,844 - INFO - Crawling page 22/1000: https://crawl4ai.com/mkdocs/advanced/hooks-auth/
+2025-03-05 02:18:33,342 - INFO - Progress: 22/1000 pages processed
+2025-03-05 02:18:33,342 - INFO - Crawling page 23/1000: https://crawl4ai.com/mkdocs/advanced/proxy-security/
+2025-03-05 02:18:33,790 - INFO - Progress: 23/1000 pages processed
+2025-03-05 02:18:33,790 - INFO - Crawling page 24/1000: https://crawl4ai.com/mkdocs/advanced/session-management/
+2025-03-05 02:18:34,292 - INFO - Progress: 24/1000 pages processed
+2025-03-05 02:18:34,293 - INFO - Crawling page 25/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/
+2025-03-05 02:18:34,830 - INFO - Progress: 25/1000 pages processed
+2025-03-05 02:18:34,830 - INFO - Crawling page 26/1000: https://crawl4ai.com/mkdocs/advanced/crawl-dispatcher/
+2025-03-05 02:18:36,305 - INFO - Progress: 26/1000 pages processed
+2025-03-05 02:18:36,306 - INFO - Crawling page 27/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/
+2025-03-05 02:18:36,818 - INFO - Progress: 27/1000 pages processed
+2025-03-05 02:18:36,818 - INFO - Crawling page 28/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/
+2025-03-05 02:18:37,309 - INFO - Progress: 28/1000 pages processed
+2025-03-05 02:18:37,309 - INFO - Crawling page 29/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/
+2025-03-05 02:18:37,877 - INFO - Progress: 29/1000 pages processed
+2025-03-05 02:18:37,877 - INFO - Crawling page 30/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/
+2025-03-05 02:18:38,440 - INFO - Progress: 30/1000 pages processed
+2025-03-05 02:18:38,440 - INFO - Crawling page 31/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/
+2025-03-05 02:18:38,948 - INFO - Progress: 31/1000 pages processed
+2025-03-05 02:18:38,949 - INFO - Crawling page 32/1000: https://crawl4ai.com/mkdocs/extraction/chunking/
+2025-03-05 02:18:39,422 - INFO - Progress: 32/1000 pages processed
+2025-03-05 02:18:39,423 - INFO - Crawling page 33/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/
+2025-03-05 02:18:39,976 - INFO - Progress: 33/1000 pages processed
+2025-03-05 02:18:39,976 - INFO - Crawling page 34/1000: https://crawl4ai.com/mkdocs/api/arun/
+2025-03-05 02:18:40,509 - INFO - Progress: 34/1000 pages processed
+2025-03-05 02:18:40,509 - INFO - Crawling page 35/1000: https://crawl4ai.com/mkdocs/api/arun_many/
+2025-03-05 02:18:40,984 - INFO - Progress: 35/1000 pages processed
+2025-03-05 02:18:40,984 - INFO - Crawling page 36/1000: https://crawl4ai.com/mkdocs/api/parameters/
+2025-03-05 02:18:41,509 - INFO - Progress: 36/1000 pages processed
+2025-03-05 02:18:41,509 - INFO - Crawling page 37/1000: https://crawl4ai.com/mkdocs/api/crawl-result/
+2025-03-05 02:18:42,070 - INFO - Progress: 37/1000 pages processed
+2025-03-05 02:18:42,070 - INFO - Crawling page 38/1000: https://crawl4ai.com/mkdocs/api/strategies/
+2025-03-05 02:18:42,583 - INFO - Progress: 38/1000 pages processed
+2025-03-05 02:18:42,583 - INFO - Crawling page 39/1000: https://crawl4ai.com/mkdocs/#crawl4ai-open-source-llm-friendly-web-crawler-scraper
+2025-03-05 02:18:42,914 - INFO - Progress: 39/1000 pages processed
+2025-03-05 02:18:42,914 - INFO - Crawling page 40/1000: https://crawl4ai.com/mkdocs/#quick-start
+2025-03-05 02:18:43,103 - INFO - Progress: 40/1000 pages processed
+2025-03-05 02:18:43,103 - INFO - Crawling page 41/1000: https://crawl4ai.com/mkdocs/#what-does-crawl4ai-do
+2025-03-05 02:18:43,295 - INFO - Progress: 41/1000 pages processed
+2025-03-05 02:18:43,295 - INFO - Crawling page 42/1000: https://crawl4ai.com/mkdocs/#documentation-structure
+2025-03-05 02:18:43,483 - INFO - Progress: 42/1000 pages processed
+2025-03-05 02:18:43,483 - INFO - Crawling page 43/1000: https://crawl4ai.com/mkdocs/#how-you-can-support
+2025-03-05 02:18:43,674 - INFO - Progress: 43/1000 pages processed
+2025-03-05 02:18:43,674 - INFO - Crawling page 44/1000: https://crawl4ai.com/mkdocs/#quick-links
+2025-03-05 02:18:43,862 - INFO - Progress: 44/1000 pages processed
+2025-03-05 02:18:43,862 - INFO - Crawling page 45/1000: https://crawl4ai.com/mkdocs/core/quickstart/#
+2025-03-05 02:18:44,148 - INFO - Progress: 45/1000 pages processed
+2025-03-05 02:18:44,148 - INFO - Crawling page 46/1000: https://crawl4ai.com/mkdocs/core/quickstart/#getting-started-with-crawl4ai
+2025-03-05 02:18:44,332 - INFO - Progress: 46/1000 pages processed
+2025-03-05 02:18:44,332 - INFO - Crawling page 47/1000: https://crawl4ai.com/mkdocs/core/quickstart/#1-introduction
+2025-03-05 02:18:44,517 - INFO - Progress: 47/1000 pages processed
+2025-03-05 02:18:44,517 - INFO - Crawling page 48/1000: https://crawl4ai.com/mkdocs/core/quickstart/#2-your-first-crawl
+2025-03-05 02:18:44,699 - INFO - Progress: 48/1000 pages processed
+2025-03-05 02:18:44,699 - INFO - Crawling page 49/1000: https://crawl4ai.com/mkdocs/core/quickstart/#3-basic-configuration-light-introduction
+2025-03-05 02:18:44,887 - INFO - Progress: 49/1000 pages processed
+2025-03-05 02:18:44,888 - INFO - Crawling page 50/1000: https://crawl4ai.com/mkdocs/core/quickstart/#4-generating-markdown-output
+2025-03-05 02:18:45,134 - INFO - Progress: 50/1000 pages processed
+2025-03-05 02:18:45,134 - INFO - Crawling page 51/1000: https://crawl4ai.com/mkdocs/core/quickstart/#5-simple-data-extraction-css-based
+2025-03-05 02:18:45,319 - INFO - Progress: 51/1000 pages processed
+2025-03-05 02:18:45,319 - INFO - Crawling page 52/1000: https://crawl4ai.com/mkdocs/core/quickstart/#6-simple-data-extraction-llm-based
+2025-03-05 02:18:45,502 - INFO - Progress: 52/1000 pages processed
+2025-03-05 02:18:45,502 - INFO - Crawling page 53/1000: https://crawl4ai.com/mkdocs/core/quickstart/#7-multi-url-concurrency-preview
+2025-03-05 02:18:45,687 - INFO - Progress: 53/1000 pages processed
+2025-03-05 02:18:45,687 - INFO - Crawling page 54/1000: https://crawl4ai.com/mkdocs/core/quickstart/#8-dynamic-content-example
+2025-03-05 02:18:45,889 - INFO - Progress: 54/1000 pages processed
+2025-03-05 02:18:45,889 - INFO - Crawling page 55/1000: https://crawl4ai.com/mkdocs/core/quickstart/#9-next-steps
+2025-03-05 02:18:46,076 - INFO - Progress: 55/1000 pages processed
+2025-03-05 02:18:46,076 - INFO - Crawling page 56/1000: https://crawl4ai.com/mkdocs/core/installation/#
+2025-03-05 02:18:46,303 - INFO - Progress: 56/1000 pages processed
+2025-03-05 02:18:46,303 - INFO - Crawling page 57/1000: https://crawl4ai.com/mkdocs/core/installation/#installation-setup-2023-edition
+2025-03-05 02:18:46,500 - INFO - Progress: 57/1000 pages processed
+2025-03-05 02:18:46,500 - INFO - Crawling page 58/1000: https://crawl4ai.com/mkdocs/core/installation/#1-basic-installation
+2025-03-05 02:18:46,668 - INFO - Progress: 58/1000 pages processed
+2025-03-05 02:18:46,669 - INFO - Crawling page 59/1000: https://crawl4ai.com/mkdocs/core/installation/#2-initial-setup-diagnostics
+2025-03-05 02:18:46,834 - INFO - Progress: 59/1000 pages processed
+2025-03-05 02:18:46,834 - INFO - Crawling page 60/1000: https://crawl4ai.com/mkdocs/core/installation/#3-verifying-installation-a-simple-crawl-skip-this-step-if-you-already-run-crawl4ai-doctor
+2025-03-05 02:18:47,000 - INFO - Progress: 60/1000 pages processed
+2025-03-05 02:18:47,001 - INFO - Crawling page 61/1000: https://crawl4ai.com/mkdocs/core/installation/#4-advanced-installation-optional
+2025-03-05 02:18:47,165 - INFO - Progress: 61/1000 pages processed
+2025-03-05 02:18:47,165 - INFO - Crawling page 62/1000: https://crawl4ai.com/mkdocs/core/installation/#5-docker-experimental
+2025-03-05 02:18:47,331 - INFO - Progress: 62/1000 pages processed
+2025-03-05 02:18:47,332 - INFO - Crawling page 63/1000: https://crawl4ai.com/mkdocs/core/installation/#6-local-server-mode-legacy
+2025-03-05 02:18:47,497 - INFO - Progress: 63/1000 pages processed
+2025-03-05 02:18:47,497 - INFO - Crawling page 64/1000: https://crawl4ai.com/mkdocs/core/installation/#summary
+2025-03-05 02:18:47,662 - INFO - Progress: 64/1000 pages processed
+2025-03-05 02:18:47,662 - INFO - Crawling page 65/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#
+2025-03-05 02:18:47,998 - INFO - Progress: 65/1000 pages processed
+2025-03-05 02:18:47,998 - INFO - Crawling page 66/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#docker-deployment
+2025-03-05 02:18:48,235 - INFO - Progress: 66/1000 pages processed
+2025-03-05 02:18:48,235 - INFO - Crawling page 67/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#quick-start
+2025-03-05 02:18:48,446 - INFO - Progress: 67/1000 pages processed
+2025-03-05 02:18:48,446 - INFO - Crawling page 68/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#running-with-docker-compose
+2025-03-05 02:18:48,648 - INFO - Progress: 68/1000 pages processed
+2025-03-05 02:18:48,648 - INFO - Crawling page 69/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#api-security
+2025-03-05 02:18:48,846 - INFO - Progress: 69/1000 pages processed
+2025-03-05 02:18:48,846 - INFO - Crawling page 70/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#configuration-options
+2025-03-05 02:18:49,043 - INFO - Progress: 70/1000 pages processed
+2025-03-05 02:18:49,043 - INFO - Crawling page 71/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#usage-examples
+2025-03-05 02:18:49,241 - INFO - Progress: 71/1000 pages processed
+2025-03-05 02:18:49,241 - INFO - Crawling page 72/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#platform-specific-instructions
+2025-03-05 02:18:49,441 - INFO - Progress: 72/1000 pages processed
+2025-03-05 02:18:49,441 - INFO - Crawling page 73/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#testing
+2025-03-05 02:18:49,646 - INFO - Progress: 73/1000 pages processed
+2025-03-05 02:18:49,646 - INFO - Crawling page 74/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#advanced-configuration
+2025-03-05 02:18:49,880 - INFO - Progress: 74/1000 pages processed
+2025-03-05 02:18:49,880 - INFO - Crawling page 75/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#troubleshooting
+2025-03-05 02:18:50,077 - INFO - Progress: 75/1000 pages processed
+2025-03-05 02:18:50,077 - INFO - Crawling page 76/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#best-practices
+2025-03-05 02:18:50,294 - INFO - Progress: 76/1000 pages processed
+2025-03-05 02:18:50,294 - INFO - Crawling page 77/1000: https://crawl4ai.com/mkdocs/core/docker-deployment/#api-reference
+2025-03-05 02:18:50,491 - INFO - Progress: 77/1000 pages processed
+2025-03-05 02:18:50,491 - INFO - Crawling page 78/1000: https://crawl4ai.com/mkdocs/blog/#
+2025-03-05 02:18:50,711 - INFO - Progress: 78/1000 pages processed
+2025-03-05 02:18:50,711 - INFO - Crawling page 79/1000: https://crawl4ai.com/mkdocs/blog/#crawl4ai-blog
+2025-03-05 02:18:50,898 - INFO - Progress: 79/1000 pages processed
+2025-03-05 02:18:50,898 - INFO - Crawling page 80/1000: https://crawl4ai.com/mkdocs/blog/#latest-release
+2025-03-05 02:18:51,083 - INFO - Progress: 80/1000 pages processed
+2025-03-05 02:18:51,083 - INFO - Crawling page 81/1000: https://crawl4ai.com/mkdocs/blog/#license-change
+2025-03-05 02:18:51,268 - INFO - Progress: 81/1000 pages processed
+2025-03-05 02:18:51,268 - INFO - Crawling page 82/1000: https://crawl4ai.com/mkdocs/blog/#project-history
+2025-03-05 02:18:51,452 - INFO - Progress: 82/1000 pages processed
+2025-03-05 02:18:51,452 - INFO - Crawling page 83/1000: https://crawl4ai.com/mkdocs/blog/#stay-updated
+2025-03-05 02:18:51,638 - INFO - Progress: 83/1000 pages processed
+2025-03-05 02:18:51,638 - INFO - Crawling page 84/1000: https://crawl4ai.com/mkdocs/blog/releases/0.5.0/
+2025-03-05 02:18:52,399 - INFO - Progress: 84/1000 pages processed
+2025-03-05 02:18:52,399 - INFO - Crawling page 85/1000: https://crawl4ai.com/mkdocs/deploy/docker/README.md
+2025-03-05 02:18:54,838 - INFO - Progress: 85/1000 pages processed
+2025-03-05 02:18:54,838 - INFO - Crawling page 86/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/
+2025-03-05 02:18:55,284 - INFO - Progress: 86/1000 pages processed
+2025-03-05 02:18:55,284 - INFO - Crawling page 87/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/
+2025-03-05 02:18:55,746 - INFO - Progress: 87/1000 pages processed
+2025-03-05 02:18:55,746 - INFO - Crawling page 88/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.0/
+2025-03-05 02:18:56,135 - INFO - Progress: 88/1000 pages processed
+2025-03-05 02:18:56,135 - INFO - Crawling page 89/1000: https://crawl4ai.com/mkdocs/core/cli/#
+2025-03-05 02:18:56,423 - INFO - Progress: 89/1000 pages processed
+2025-03-05 02:18:56,423 - INFO - Crawling page 90/1000: https://crawl4ai.com/mkdocs/core/cli/#crawl4ai-cli-guide
+2025-03-05 02:18:56,635 - INFO - Progress: 90/1000 pages processed
+2025-03-05 02:18:56,635 - INFO - Crawling page 91/1000: https://crawl4ai.com/mkdocs/core/cli/#table-of-contents
+2025-03-05 02:18:56,844 - INFO - Progress: 91/1000 pages processed
+2025-03-05 02:18:56,844 - INFO - Crawling page 92/1000: https://crawl4ai.com/mkdocs/core/cli/#basic-usage
+2025-03-05 02:18:57,050 - INFO - Progress: 92/1000 pages processed
+2025-03-05 02:18:57,050 - INFO - Crawling page 93/1000: https://crawl4ai.com/mkdocs/core/cli/#quick-example-of-advanced-usage
+2025-03-05 02:18:57,264 - INFO - Progress: 93/1000 pages processed
+2025-03-05 02:18:57,264 - INFO - Crawling page 94/1000: https://crawl4ai.com/mkdocs/core/cli/#configuration
+2025-03-05 02:18:57,474 - INFO - Progress: 94/1000 pages processed
+2025-03-05 02:18:57,474 - INFO - Crawling page 95/1000: https://crawl4ai.com/mkdocs/core/cli/#advanced-features
+2025-03-05 02:18:57,682 - INFO - Progress: 95/1000 pages processed
+2025-03-05 02:18:57,682 - INFO - Crawling page 96/1000: https://crawl4ai.com/mkdocs/core/cli/#output-formats
+2025-03-05 02:18:57,891 - INFO - Progress: 96/1000 pages processed
+2025-03-05 02:18:57,891 - INFO - Crawling page 97/1000: https://crawl4ai.com/mkdocs/core/cli/#complete-examples
+2025-03-05 02:18:58,127 - INFO - Progress: 97/1000 pages processed
+2025-03-05 02:18:58,128 - INFO - Crawling page 98/1000: https://crawl4ai.com/mkdocs/core/cli/#best-practices-tips
+2025-03-05 02:18:58,334 - INFO - Progress: 98/1000 pages processed
+2025-03-05 02:18:58,334 - INFO - Crawling page 99/1000: https://crawl4ai.com/mkdocs/core/cli/#recap
+2025-03-05 02:18:58,545 - INFO - Progress: 99/1000 pages processed
+2025-03-05 02:18:58,545 - INFO - Crawling page 100/1000: https://crawl4ai.com/mkdocs/core/cli/#installation
+2025-03-05 02:18:58,750 - INFO - Progress: 100/1000 pages processed
+2025-03-05 02:18:58,750 - INFO - Crawling page 101/1000: https://crawl4ai.com/mkdocs/core/cli/#browser-configuration
+2025-03-05 02:18:58,957 - INFO - Progress: 101/1000 pages processed
+2025-03-05 02:18:58,957 - INFO - Crawling page 102/1000: https://crawl4ai.com/mkdocs/core/cli/#crawler-configuration
+2025-03-05 02:18:59,165 - INFO - Progress: 102/1000 pages processed
+2025-03-05 02:18:59,165 - INFO - Crawling page 103/1000: https://crawl4ai.com/mkdocs/core/cli/#extraction-configuration
+2025-03-05 02:18:59,371 - INFO - Progress: 103/1000 pages processed
+2025-03-05 02:18:59,371 - INFO - Crawling page 104/1000: https://crawl4ai.com/mkdocs/core/cli/#content-filtering
+2025-03-05 02:18:59,578 - INFO - Progress: 104/1000 pages processed
+2025-03-05 02:18:59,578 - INFO - Crawling page 105/1000: https://crawl4ai.com/mkdocs/core/cli/#llm-qa
+2025-03-05 02:18:59,806 - INFO - Progress: 105/1000 pages processed
+2025-03-05 02:18:59,806 - INFO - Crawling page 106/1000: https://crawl4ai.com/mkdocs/core/cli/#structured-data-extraction
+2025-03-05 02:19:00,013 - INFO - Progress: 106/1000 pages processed
+2025-03-05 02:19:00,013 - INFO - Crawling page 107/1000: https://crawl4ai.com/mkdocs/core/cli/#content-filtering-1
+2025-03-05 02:19:00,221 - INFO - Progress: 107/1000 pages processed
+2025-03-05 02:19:00,221 - INFO - Crawling page 108/1000: https://crawl4ai.com/mkdocs/core/cli/#examples
+2025-03-05 02:19:00,428 - INFO - Progress: 108/1000 pages processed
+2025-03-05 02:19:00,428 - INFO - Crawling page 109/1000: https://crawl4ai.com/mkdocs/core/cli/#configuration-reference
+2025-03-05 02:19:00,636 - INFO - Progress: 109/1000 pages processed
+2025-03-05 02:19:00,636 - INFO - Crawling page 110/1000: https://crawl4ai.com/mkdocs/core/cli/#best-practices--tips
+2025-03-05 02:19:00,841 - INFO - Progress: 110/1000 pages processed
+2025-03-05 02:19:00,841 - INFO - Crawling page 111/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/#
+2025-03-05 02:19:01,078 - INFO - Progress: 111/1000 pages processed
+2025-03-05 02:19:01,078 - INFO - Crawling page 112/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/#simple-crawling
+2025-03-05 02:19:01,244 - INFO - Progress: 112/1000 pages processed
+2025-03-05 02:19:01,244 - INFO - Crawling page 113/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/#basic-usage
+2025-03-05 02:19:01,408 - INFO - Progress: 113/1000 pages processed
+2025-03-05 02:19:01,408 - INFO - Crawling page 114/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/#understanding-the-response
+2025-03-05 02:19:01,569 - INFO - Progress: 114/1000 pages processed
+2025-03-05 02:19:01,569 - INFO - Crawling page 115/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/#adding-basic-options
+2025-03-05 02:19:01,731 - INFO - Progress: 115/1000 pages processed
+2025-03-05 02:19:01,731 - INFO - Crawling page 116/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/#handling-errors
+2025-03-05 02:19:01,892 - INFO - Progress: 116/1000 pages processed
+2025-03-05 02:19:01,892 - INFO - Crawling page 117/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/#logging-and-debugging
+2025-03-05 02:19:02,054 - INFO - Progress: 117/1000 pages processed
+2025-03-05 02:19:02,054 - INFO - Crawling page 118/1000: https://crawl4ai.com/mkdocs/core/simple-crawling/#complete-example
+2025-03-05 02:19:02,215 - INFO - Progress: 118/1000 pages processed
+2025-03-05 02:19:02,216 - INFO - Crawling page 119/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#
+2025-03-05 02:19:02,502 - INFO - Progress: 119/1000 pages processed
+2025-03-05 02:19:02,502 - INFO - Crawling page 120/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#deep-crawling
+2025-03-05 02:19:02,683 - INFO - Progress: 120/1000 pages processed
+2025-03-05 02:19:02,683 - INFO - Crawling page 121/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#1-quick-example
+2025-03-05 02:19:02,867 - INFO - Progress: 121/1000 pages processed
+2025-03-05 02:19:02,867 - INFO - Crawling page 122/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#2-understanding-deep-crawling-strategy-options
+2025-03-05 02:19:03,072 - INFO - Progress: 122/1000 pages processed
+2025-03-05 02:19:03,073 - INFO - Crawling page 123/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#3-streaming-vs-non-streaming-results
+2025-03-05 02:19:03,255 - INFO - Progress: 123/1000 pages processed
+2025-03-05 02:19:03,255 - INFO - Crawling page 124/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#4-filtering-content-with-filter-chains
+2025-03-05 02:19:03,438 - INFO - Progress: 124/1000 pages processed
+2025-03-05 02:19:03,438 - INFO - Crawling page 125/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#5-using-scorers-for-prioritized-crawling
+2025-03-05 02:19:03,619 - INFO - Progress: 125/1000 pages processed
+2025-03-05 02:19:03,619 - INFO - Crawling page 126/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#6-advanced-filtering-techniques
+2025-03-05 02:19:03,801 - INFO - Progress: 126/1000 pages processed
+2025-03-05 02:19:03,801 - INFO - Crawling page 127/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#7-building-a-complete-advanced-crawler
+2025-03-05 02:19:03,982 - INFO - Progress: 127/1000 pages processed
+2025-03-05 02:19:03,982 - INFO - Crawling page 128/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#8-limiting-and-controlling-crawl-size
+2025-03-05 02:19:04,166 - INFO - Progress: 128/1000 pages processed
+2025-03-05 02:19:04,167 - INFO - Crawling page 129/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#9-common-pitfalls-tips
+2025-03-05 02:19:04,349 - INFO - Progress: 129/1000 pages processed
+2025-03-05 02:19:04,349 - INFO - Crawling page 130/1000: https://crawl4ai.com/mkdocs/core/deep-crawling/#10-summary-next-steps
+2025-03-05 02:19:04,533 - INFO - Progress: 130/1000 pages processed
+2025-03-05 02:19:04,533 - INFO - Crawling page 131/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#
+2025-03-05 02:19:04,790 - INFO - Progress: 131/1000 pages processed
+2025-03-05 02:19:04,790 - INFO - Crawling page 132/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#crawl-result-and-output
+2025-03-05 02:19:04,960 - INFO - Progress: 132/1000 pages processed
+2025-03-05 02:19:04,960 - INFO - Crawling page 133/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#1-the-crawlresult-model
+2025-03-05 02:19:05,130 - INFO - Progress: 133/1000 pages processed
+2025-03-05 02:19:05,130 - INFO - Crawling page 134/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#2-html-variants
+2025-03-05 02:19:05,301 - INFO - Progress: 134/1000 pages processed
+2025-03-05 02:19:05,301 - INFO - Crawling page 135/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#3-markdown-generation
+2025-03-05 02:19:05,473 - INFO - Progress: 135/1000 pages processed
+2025-03-05 02:19:05,473 - INFO - Crawling page 136/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#4-structured-extraction-extracted_content
+2025-03-05 02:19:05,641 - INFO - Progress: 136/1000 pages processed
+2025-03-05 02:19:05,642 - INFO - Crawling page 137/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#5-more-fields-links-media-and-more
+2025-03-05 02:19:05,810 - INFO - Progress: 137/1000 pages processed
+2025-03-05 02:19:05,810 - INFO - Crawling page 138/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#6-accessing-these-fields
+2025-03-05 02:19:05,978 - INFO - Progress: 138/1000 pages processed
+2025-03-05 02:19:05,978 - INFO - Crawling page 139/1000: https://crawl4ai.com/mkdocs/core/crawler-result/#7-next-steps
+2025-03-05 02:19:06,150 - INFO - Progress: 139/1000 pages processed
+2025-03-05 02:19:06,150 - INFO - Crawling page 140/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/#
+2025-03-05 02:19:06,418 - INFO - Progress: 140/1000 pages processed
+2025-03-05 02:19:06,418 - INFO - Crawling page 141/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/#browser-crawler-llm-configuration-quick-overview
+2025-03-05 02:19:06,624 - INFO - Progress: 141/1000 pages processed
+2025-03-05 02:19:06,624 - INFO - Crawling page 142/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/#1-browserconfig-essentials
+2025-03-05 02:19:06,798 - INFO - Progress: 142/1000 pages processed
+2025-03-05 02:19:06,798 - INFO - Crawling page 143/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/#2-crawlerrunconfig-essentials
+2025-03-05 02:19:06,972 - INFO - Progress: 143/1000 pages processed
+2025-03-05 02:19:06,973 - INFO - Crawling page 144/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/#3-llmconfig-essentials
+2025-03-05 02:19:07,144 - INFO - Progress: 144/1000 pages processed
+2025-03-05 02:19:07,145 - INFO - Crawling page 145/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/#4-putting-it-all-together
+2025-03-05 02:19:07,319 - INFO - Progress: 145/1000 pages processed
+2025-03-05 02:19:07,319 - INFO - Crawling page 146/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/#5-next-steps
+2025-03-05 02:19:07,494 - INFO - Progress: 146/1000 pages processed
+2025-03-05 02:19:07,494 - INFO - Crawling page 147/1000: https://crawl4ai.com/mkdocs/core/browser-crawler-config/#6-conclusion
+2025-03-05 02:19:07,668 - INFO - Progress: 147/1000 pages processed
+2025-03-05 02:19:07,668 - INFO - Crawling page 148/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#
+2025-03-05 02:19:07,939 - INFO - Progress: 148/1000 pages processed
+2025-03-05 02:19:07,939 - INFO - Crawling page 149/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#markdown-generation-basics
+2025-03-05 02:19:08,111 - INFO - Progress: 149/1000 pages processed
+2025-03-05 02:19:08,111 - INFO - Crawling page 150/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#1-quick-example
+2025-03-05 02:19:08,300 - INFO - Progress: 150/1000 pages processed
+2025-03-05 02:19:08,300 - INFO - Crawling page 151/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#2-how-markdown-generation-works
+2025-03-05 02:19:08,477 - INFO - Progress: 151/1000 pages processed
+2025-03-05 02:19:08,477 - INFO - Crawling page 152/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#3-configuring-the-default-markdown-generator
+2025-03-05 02:19:08,651 - INFO - Progress: 152/1000 pages processed
+2025-03-05 02:19:08,651 - INFO - Crawling page 153/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#4-content-filters
+2025-03-05 02:19:08,824 - INFO - Progress: 153/1000 pages processed
+2025-03-05 02:19:08,824 - INFO - Crawling page 154/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#5-using-fit-markdown
+2025-03-05 02:19:09,001 - INFO - Progress: 154/1000 pages processed
+2025-03-05 02:19:09,001 - INFO - Crawling page 155/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#6-the-markdowngenerationresult-object
+2025-03-05 02:19:09,175 - INFO - Progress: 155/1000 pages processed
+2025-03-05 02:19:09,175 - INFO - Crawling page 156/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#7-combining-filters-bm25-pruning-in-two-passes
+2025-03-05 02:19:09,353 - INFO - Progress: 156/1000 pages processed
+2025-03-05 02:19:09,354 - INFO - Crawling page 157/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#8-common-pitfalls-tips
+2025-03-05 02:19:09,528 - INFO - Progress: 157/1000 pages processed
+2025-03-05 02:19:09,528 - INFO - Crawling page 158/1000: https://crawl4ai.com/mkdocs/core/markdown-generation/#9-summary-next-steps
+2025-03-05 02:19:09,704 - INFO - Progress: 158/1000 pages processed
+2025-03-05 02:19:09,704 - INFO - Crawling page 159/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#
+2025-03-05 02:19:09,953 - INFO - Progress: 159/1000 pages processed
+2025-03-05 02:19:09,953 - INFO - Crawling page 160/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#fit-markdown-with-pruning-bm25
+2025-03-05 02:19:10,121 - INFO - Progress: 160/1000 pages processed
+2025-03-05 02:19:10,121 - INFO - Crawling page 161/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#1-how-fit-markdown-works
+2025-03-05 02:19:10,291 - INFO - Progress: 161/1000 pages processed
+2025-03-05 02:19:10,291 - INFO - Crawling page 162/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#2-pruningcontentfilter
+2025-03-05 02:19:10,485 - INFO - Progress: 162/1000 pages processed
+2025-03-05 02:19:10,485 - INFO - Crawling page 163/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#3-bm25contentfilter
+2025-03-05 02:19:10,654 - INFO - Progress: 163/1000 pages processed
+2025-03-05 02:19:10,654 - INFO - Crawling page 164/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#4-accessing-the-fit-output
+2025-03-05 02:19:10,822 - INFO - Progress: 164/1000 pages processed
+2025-03-05 02:19:10,822 - INFO - Crawling page 165/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#5-code-patterns-recap
+2025-03-05 02:19:10,993 - INFO - Progress: 165/1000 pages processed
+2025-03-05 02:19:10,993 - INFO - Crawling page 166/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#6-combining-with-word_count_threshold-exclusions
+2025-03-05 02:19:11,160 - INFO - Progress: 166/1000 pages processed
+2025-03-05 02:19:11,160 - INFO - Crawling page 167/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#7-custom-filters
+2025-03-05 02:19:11,330 - INFO - Progress: 167/1000 pages processed
+2025-03-05 02:19:11,330 - INFO - Crawling page 168/1000: https://crawl4ai.com/mkdocs/core/fit-markdown/#8-final-thoughts
+2025-03-05 02:19:11,499 - INFO - Progress: 168/1000 pages processed
+2025-03-05 02:19:11,499 - INFO - Crawling page 169/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#
+2025-03-05 02:19:11,763 - INFO - Progress: 169/1000 pages processed
+2025-03-05 02:19:11,763 - INFO - Crawling page 170/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#page-interaction
+2025-03-05 02:19:11,938 - INFO - Progress: 170/1000 pages processed
+2025-03-05 02:19:11,938 - INFO - Crawling page 171/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#1-javascript-execution
+2025-03-05 02:19:12,114 - INFO - Progress: 171/1000 pages processed
+2025-03-05 02:19:12,114 - INFO - Crawling page 172/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#2-wait-conditions
+2025-03-05 02:19:12,290 - INFO - Progress: 172/1000 pages processed
+2025-03-05 02:19:12,290 - INFO - Crawling page 173/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#3-handling-dynamic-content
+2025-03-05 02:19:12,466 - INFO - Progress: 173/1000 pages processed
+2025-03-05 02:19:12,466 - INFO - Crawling page 174/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#4-timing-control
+2025-03-05 02:19:12,643 - INFO - Progress: 174/1000 pages processed
+2025-03-05 02:19:12,643 - INFO - Crawling page 175/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#5-multi-step-interaction-example
+2025-03-05 02:19:12,818 - INFO - Progress: 175/1000 pages processed
+2025-03-05 02:19:12,818 - INFO - Crawling page 176/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#6-combine-interaction-with-extraction
+2025-03-05 02:19:12,992 - INFO - Progress: 176/1000 pages processed
+2025-03-05 02:19:12,992 - INFO - Crawling page 177/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#7-relevant-crawlerrunconfig-parameters
+2025-03-05 02:19:13,167 - INFO - Progress: 177/1000 pages processed
+2025-03-05 02:19:13,167 - INFO - Crawling page 178/1000: https://crawl4ai.com/mkdocs/core/page-interaction/#8-conclusion
+2025-03-05 02:19:13,342 - INFO - Progress: 178/1000 pages processed
+2025-03-05 02:19:13,342 - INFO - Crawling page 179/1000: https://crawl4ai.com/mkdocs/core/content-selection/#
+2025-03-05 02:19:13,627 - INFO - Progress: 179/1000 pages processed
+2025-03-05 02:19:13,627 - INFO - Crawling page 180/1000: https://crawl4ai.com/mkdocs/core/content-selection/#content-selection
+2025-03-05 02:19:13,803 - INFO - Progress: 180/1000 pages processed
+2025-03-05 02:19:13,803 - INFO - Crawling page 181/1000: https://crawl4ai.com/mkdocs/core/content-selection/#1-css-based-selection
+2025-03-05 02:19:13,981 - INFO - Progress: 181/1000 pages processed
+2025-03-05 02:19:13,981 - INFO - Crawling page 182/1000: https://crawl4ai.com/mkdocs/core/content-selection/#2-content-filtering-exclusions
+2025-03-05 02:19:14,177 - INFO - Progress: 182/1000 pages processed
+2025-03-05 02:19:14,177 - INFO - Crawling page 183/1000: https://crawl4ai.com/mkdocs/core/content-selection/#3-handling-iframes
+2025-03-05 02:19:14,356 - INFO - Progress: 183/1000 pages processed
+2025-03-05 02:19:14,356 - INFO - Crawling page 184/1000: https://crawl4ai.com/mkdocs/core/content-selection/#4-structured-extraction-examples
+2025-03-05 02:19:14,556 - INFO - Progress: 184/1000 pages processed
+2025-03-05 02:19:14,556 - INFO - Crawling page 185/1000: https://crawl4ai.com/mkdocs/core/content-selection/#5-comprehensive-example
+2025-03-05 02:19:14,732 - INFO - Progress: 185/1000 pages processed
+2025-03-05 02:19:14,732 - INFO - Crawling page 186/1000: https://crawl4ai.com/mkdocs/core/content-selection/#6-scraping-modes
+2025-03-05 02:19:14,907 - INFO - Progress: 186/1000 pages processed
+2025-03-05 02:19:14,908 - INFO - Crawling page 187/1000: https://crawl4ai.com/mkdocs/core/content-selection/#7-conclusion
+2025-03-05 02:19:15,085 - INFO - Progress: 187/1000 pages processed
+2025-03-05 02:19:15,085 - INFO - Crawling page 188/1000: https://crawl4ai.com/mkdocs/core/cache-modes/#
+2025-03-05 02:19:15,294 - INFO - Progress: 188/1000 pages processed
+2025-03-05 02:19:15,294 - INFO - Crawling page 189/1000: https://crawl4ai.com/mkdocs/core/cache-modes/#crawl4ai-cache-system-and-migration-guide
+2025-03-05 02:19:15,449 - INFO - Progress: 189/1000 pages processed
+2025-03-05 02:19:15,449 - INFO - Crawling page 190/1000: https://crawl4ai.com/mkdocs/core/cache-modes/#overview
+2025-03-05 02:19:15,605 - INFO - Progress: 190/1000 pages processed
+2025-03-05 02:19:15,605 - INFO - Crawling page 191/1000: https://crawl4ai.com/mkdocs/core/cache-modes/#old-vs-new-approach
+2025-03-05 02:19:15,758 - INFO - Progress: 191/1000 pages processed
+2025-03-05 02:19:15,758 - INFO - Crawling page 192/1000: https://crawl4ai.com/mkdocs/core/cache-modes/#migration-example
+2025-03-05 02:19:15,912 - INFO - Progress: 192/1000 pages processed
+2025-03-05 02:19:15,912 - INFO - Crawling page 193/1000: https://crawl4ai.com/mkdocs/core/cache-modes/#common-migration-patterns
+2025-03-05 02:19:16,064 - INFO - Progress: 193/1000 pages processed
+2025-03-05 02:19:16,064 - INFO - Crawling page 194/1000: https://crawl4ai.com/mkdocs/core/local-files/#
+2025-03-05 02:19:16,302 - INFO - Progress: 194/1000 pages processed
+2025-03-05 02:19:16,302 - INFO - Crawling page 195/1000: https://crawl4ai.com/mkdocs/core/local-files/#prefix-based-input-handling-in-crawl4ai
+2025-03-05 02:19:16,461 - INFO - Progress: 195/1000 pages processed
+2025-03-05 02:19:16,461 - INFO - Crawling page 196/1000: https://crawl4ai.com/mkdocs/core/local-files/#crawling-a-web-url
+2025-03-05 02:19:16,622 - INFO - Progress: 196/1000 pages processed
+2025-03-05 02:19:16,622 - INFO - Crawling page 197/1000: https://crawl4ai.com/mkdocs/core/local-files/#crawling-a-local-html-file
+2025-03-05 02:19:16,785 - INFO - Progress: 197/1000 pages processed
+2025-03-05 02:19:16,785 - INFO - Crawling page 198/1000: https://crawl4ai.com/mkdocs/core/local-files/#crawling-raw-html-content
+2025-03-05 02:19:16,944 - INFO - Progress: 198/1000 pages processed
+2025-03-05 02:19:16,944 - INFO - Crawling page 199/1000: https://crawl4ai.com/mkdocs/core/local-files/#complete-example
+2025-03-05 02:19:17,100 - INFO - Progress: 199/1000 pages processed
+2025-03-05 02:19:17,100 - INFO - Crawling page 200/1000: https://crawl4ai.com/mkdocs/core/local-files/#conclusion
+2025-03-05 02:19:17,261 - INFO - Progress: 200/1000 pages processed
+2025-03-05 02:19:17,261 - INFO - Crawling page 201/1000: https://crawl4ai.com/mkdocs/core/link-media/#
+2025-03-05 02:19:17,511 - INFO - Progress: 201/1000 pages processed
+2025-03-05 02:19:17,511 - INFO - Crawling page 202/1000: https://crawl4ai.com/mkdocs/core/link-media/#link-media
+2025-03-05 02:19:17,676 - INFO - Progress: 202/1000 pages processed
+2025-03-05 02:19:17,676 - INFO - Crawling page 203/1000: https://crawl4ai.com/mkdocs/core/link-media/#1-link-extraction
+2025-03-05 02:19:17,843 - INFO - Progress: 203/1000 pages processed
+2025-03-05 02:19:17,843 - INFO - Crawling page 204/1000: https://crawl4ai.com/mkdocs/core/link-media/#2-domain-filtering
+2025-03-05 02:19:18,007 - INFO - Progress: 204/1000 pages processed
+2025-03-05 02:19:18,007 - INFO - Crawling page 205/1000: https://crawl4ai.com/mkdocs/core/link-media/#3-media-extraction
+2025-03-05 02:19:18,181 - INFO - Progress: 205/1000 pages processed
+2025-03-05 02:19:18,182 - INFO - Crawling page 206/1000: https://crawl4ai.com/mkdocs/core/link-media/#4-putting-it-all-together-link-media-filtering
+2025-03-05 02:19:18,356 - INFO - Progress: 206/1000 pages processed
+2025-03-05 02:19:18,356 - INFO - Crawling page 207/1000: https://crawl4ai.com/mkdocs/core/link-media/#5-common-pitfalls-tips
+2025-03-05 02:19:18,523 - INFO - Progress: 207/1000 pages processed
+2025-03-05 02:19:18,523 - INFO - Crawling page 208/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#
+2025-03-05 02:19:18,802 - INFO - Progress: 208/1000 pages processed
+2025-03-05 02:19:18,802 - INFO - Crawling page 209/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#overview-of-some-important-advanced-features
+2025-03-05 02:19:18,983 - INFO - Progress: 209/1000 pages processed
+2025-03-05 02:19:18,983 - INFO - Crawling page 210/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#1-proxy-usage
+2025-03-05 02:19:19,166 - INFO - Progress: 210/1000 pages processed
+2025-03-05 02:19:19,166 - INFO - Crawling page 211/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#2-capturing-pdfs-screenshots
+2025-03-05 02:19:19,371 - INFO - Progress: 211/1000 pages processed
+2025-03-05 02:19:19,371 - INFO - Crawling page 212/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#3-handling-ssl-certificates
+2025-03-05 02:19:19,550 - INFO - Progress: 212/1000 pages processed
+2025-03-05 02:19:19,550 - INFO - Crawling page 213/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#4-custom-headers
+2025-03-05 02:19:19,734 - INFO - Progress: 213/1000 pages processed
+2025-03-05 02:19:19,734 - INFO - Crawling page 214/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#5-session-persistence-local-storage
+2025-03-05 02:19:19,917 - INFO - Progress: 214/1000 pages processed
+2025-03-05 02:19:19,917 - INFO - Crawling page 215/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#6-robotstxt-compliance
+2025-03-05 02:19:20,103 - INFO - Progress: 215/1000 pages processed
+2025-03-05 02:19:20,103 - INFO - Crawling page 216/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#putting-it-all-together
+2025-03-05 02:19:20,283 - INFO - Progress: 216/1000 pages processed
+2025-03-05 02:19:20,284 - INFO - Crawling page 217/1000: https://crawl4ai.com/mkdocs/advanced/advanced-features/#conclusion-next-steps
+2025-03-05 02:19:20,468 - INFO - Progress: 217/1000 pages processed
+2025-03-05 02:19:20,468 - INFO - Crawling page 218/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/#
+2025-03-05 02:19:20,691 - INFO - Progress: 218/1000 pages processed
+2025-03-05 02:19:20,692 - INFO - Crawling page 219/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/#download-handling-in-crawl4ai
+2025-03-05 02:19:20,849 - INFO - Progress: 219/1000 pages processed
+2025-03-05 02:19:20,849 - INFO - Crawling page 220/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/#enabling-downloads
+2025-03-05 02:19:21,007 - INFO - Progress: 220/1000 pages processed
+2025-03-05 02:19:21,007 - INFO - Crawling page 221/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/#specifying-download-location
+2025-03-05 02:19:21,163 - INFO - Progress: 221/1000 pages processed
+2025-03-05 02:19:21,163 - INFO - Crawling page 222/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/#triggering-downloads
+2025-03-05 02:19:21,320 - INFO - Progress: 222/1000 pages processed
+2025-03-05 02:19:21,320 - INFO - Crawling page 223/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/#accessing-downloaded-files
+2025-03-05 02:19:21,475 - INFO - Progress: 223/1000 pages processed
+2025-03-05 02:19:21,475 - INFO - Crawling page 224/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/#example-downloading-multiple-files
+2025-03-05 02:19:21,630 - INFO - Progress: 224/1000 pages processed
+2025-03-05 02:19:21,630 - INFO - Crawling page 225/1000: https://crawl4ai.com/mkdocs/advanced/file-downloading/#important-considerations
+2025-03-05 02:19:21,785 - INFO - Progress: 225/1000 pages processed
+2025-03-05 02:19:21,786 - INFO - Crawling page 226/1000: https://crawl4ai.com/mkdocs/advanced/lazy-loading/#
+2025-03-05 02:19:22,008 - INFO - Progress: 226/1000 pages processed
+2025-03-05 02:19:22,009 - INFO - Crawling page 227/1000: https://crawl4ai.com/mkdocs/advanced/lazy-loading/#handling-lazy-loaded-images
+2025-03-05 02:19:22,170 - INFO - Progress: 227/1000 pages processed
+2025-03-05 02:19:22,170 - INFO - Crawling page 228/1000: https://crawl4ai.com/mkdocs/advanced/lazy-loading/#example-ensuring-lazy-images-appear
+2025-03-05 02:19:22,331 - INFO - Progress: 228/1000 pages processed
+2025-03-05 02:19:22,331 - INFO - Crawling page 229/1000: https://crawl4ai.com/mkdocs/advanced/lazy-loading/#combining-with-other-link-media-filters
+2025-03-05 02:19:22,491 - INFO - Progress: 229/1000 pages processed
+2025-03-05 02:19:22,491 - INFO - Crawling page 230/1000: https://crawl4ai.com/mkdocs/advanced/lazy-loading/#tips-troubleshooting
+2025-03-05 02:19:22,649 - INFO - Progress: 230/1000 pages processed
+2025-03-05 02:19:22,649 - INFO - Crawling page 231/1000: https://crawl4ai.com/mkdocs/advanced/hooks-auth/#
+2025-03-05 02:19:22,888 - INFO - Progress: 231/1000 pages processed
+2025-03-05 02:19:22,888 - INFO - Crawling page 232/1000: https://crawl4ai.com/mkdocs/advanced/hooks-auth/#hooks-auth-in-asyncwebcrawler
+2025-03-05 02:19:23,053 - INFO - Progress: 232/1000 pages processed
+2025-03-05 02:19:23,053 - INFO - Crawling page 233/1000: https://crawl4ai.com/mkdocs/advanced/hooks-auth/#example-using-hooks-in-asyncwebcrawler
+2025-03-05 02:19:23,216 - INFO - Progress: 233/1000 pages processed
+2025-03-05 02:19:23,216 - INFO - Crawling page 234/1000: https://crawl4ai.com/mkdocs/advanced/hooks-auth/#hook-lifecycle-summary
+2025-03-05 02:19:23,381 - INFO - Progress: 234/1000 pages processed
+2025-03-05 02:19:23,381 - INFO - Crawling page 235/1000: https://crawl4ai.com/mkdocs/advanced/hooks-auth/#when-to-handle-authentication
+2025-03-05 02:19:23,547 - INFO - Progress: 235/1000 pages processed
+2025-03-05 02:19:23,547 - INFO - Crawling page 236/1000: https://crawl4ai.com/mkdocs/advanced/hooks-auth/#additional-considerations
+2025-03-05 02:19:23,712 - INFO - Progress: 236/1000 pages processed
+2025-03-05 02:19:23,712 - INFO - Crawling page 237/1000: https://crawl4ai.com/mkdocs/advanced/hooks-auth/#conclusion
+2025-03-05 02:19:23,877 - INFO - Progress: 237/1000 pages processed
+2025-03-05 02:19:23,877 - INFO - Crawling page 238/1000: https://crawl4ai.com/mkdocs/advanced/proxy-security/#
+2025-03-05 02:19:24,086 - INFO - Progress: 238/1000 pages processed
+2025-03-05 02:19:24,087 - INFO - Crawling page 239/1000: https://crawl4ai.com/mkdocs/advanced/proxy-security/#proxy
+2025-03-05 02:19:24,239 - INFO - Progress: 239/1000 pages processed
+2025-03-05 02:19:24,239 - INFO - Crawling page 240/1000: https://crawl4ai.com/mkdocs/advanced/proxy-security/#basic-proxy-setup
+2025-03-05 02:19:24,390 - INFO - Progress: 240/1000 pages processed
+2025-03-05 02:19:24,390 - INFO - Crawling page 241/1000: https://crawl4ai.com/mkdocs/advanced/proxy-security/#authenticated-proxy
+2025-03-05 02:19:24,538 - INFO - Progress: 241/1000 pages processed
+2025-03-05 02:19:24,538 - INFO - Crawling page 242/1000: https://crawl4ai.com/mkdocs/advanced/proxy-security/#rotating-proxies
+2025-03-05 02:19:24,689 - INFO - Progress: 242/1000 pages processed
+2025-03-05 02:19:24,689 - INFO - Crawling page 243/1000: https://crawl4ai.com/mkdocs/advanced/session-management/#
+2025-03-05 02:19:24,927 - INFO - Progress: 243/1000 pages processed
+2025-03-05 02:19:24,927 - INFO - Crawling page 244/1000: https://crawl4ai.com/mkdocs/advanced/session-management/#session-management
+2025-03-05 02:19:25,114 - INFO - Progress: 244/1000 pages processed
+2025-03-05 02:19:25,114 - INFO - Crawling page 245/1000: https://crawl4ai.com/mkdocs/advanced/session-management/#basic-session-usage
+2025-03-05 02:19:25,276 - INFO - Progress: 245/1000 pages processed
+2025-03-05 02:19:25,277 - INFO - Crawling page 246/1000: https://crawl4ai.com/mkdocs/advanced/session-management/#dynamic-content-with-sessions
+2025-03-05 02:19:25,433 - INFO - Progress: 246/1000 pages processed
+2025-03-05 02:19:25,433 - INFO - Crawling page 247/1000: https://crawl4ai.com/mkdocs/advanced/session-management/#example-1-basic-session-based-crawling
+2025-03-05 02:19:25,593 - INFO - Progress: 247/1000 pages processed
+2025-03-05 02:19:25,593 - INFO - Crawling page 248/1000: https://crawl4ai.com/mkdocs/advanced/session-management/#advanced-technique-1-custom-execution-hooks
+2025-03-05 02:19:25,753 - INFO - Progress: 248/1000 pages processed
+2025-03-05 02:19:25,753 - INFO - Crawling page 249/1000: https://crawl4ai.com/mkdocs/advanced/session-management/#advanced-technique-2-integrated-javascript-execution-and-waiting
+2025-03-05 02:19:25,915 - INFO - Progress: 249/1000 pages processed
+2025-03-05 02:19:25,915 - INFO - Crawling page 250/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/#
+2025-03-05 02:19:26,180 - INFO - Progress: 250/1000 pages processed
+2025-03-05 02:19:26,180 - INFO - Crawling page 251/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/#advanced-multi-url-crawling-with-dispatchers
+2025-03-05 02:19:26,349 - INFO - Progress: 251/1000 pages processed
+2025-03-05 02:19:26,349 - INFO - Crawling page 252/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/#1-introduction
+2025-03-05 02:19:26,522 - INFO - Progress: 252/1000 pages processed
+2025-03-05 02:19:26,522 - INFO - Crawling page 253/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/#2-core-components
+2025-03-05 02:19:26,689 - INFO - Progress: 253/1000 pages processed
+2025-03-05 02:19:26,689 - INFO - Crawling page 254/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/#3-available-dispatchers
+2025-03-05 02:19:26,867 - INFO - Progress: 254/1000 pages processed
+2025-03-05 02:19:26,867 - INFO - Crawling page 255/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/#4-usage-examples
+2025-03-05 02:19:27,033 - INFO - Progress: 255/1000 pages processed
+2025-03-05 02:19:27,033 - INFO - Crawling page 256/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/#5-dispatch-results
+2025-03-05 02:19:27,203 - INFO - Progress: 256/1000 pages processed
+2025-03-05 02:19:27,203 - INFO - Crawling page 257/1000: https://crawl4ai.com/mkdocs/advanced/multi-url-crawling/#6-summary
+2025-03-05 02:19:27,369 - INFO - Progress: 257/1000 pages processed
+2025-03-05 02:19:27,369 - INFO - Crawling page 258/1000: https://crawl4ai.com/mkdocs/advanced/crawl-dispatcher/#
+2025-03-05 02:19:27,548 - INFO - Progress: 258/1000 pages processed
+2025-03-05 02:19:27,548 - INFO - Crawling page 259/1000: https://crawl4ai.com/mkdocs/advanced/crawl-dispatcher/#crawl-dispatcher
+2025-03-05 02:19:27,694 - INFO - Progress: 259/1000 pages processed
+2025-03-05 02:19:27,694 - INFO - Crawling page 260/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/#
+2025-03-05 02:19:27,936 - INFO - Progress: 260/1000 pages processed
+2025-03-05 02:19:27,936 - INFO - Crawling page 261/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/#preserve-your-identity-with-crawl4ai
+2025-03-05 02:19:28,097 - INFO - Progress: 261/1000 pages processed
+2025-03-05 02:19:28,097 - INFO - Crawling page 262/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/#1-managed-browsers-your-digital-identity-solution
+2025-03-05 02:19:28,263 - INFO - Progress: 262/1000 pages processed
+2025-03-05 02:19:28,264 - INFO - Crawling page 263/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/#3-using-managed-browsers-in-crawl4ai
+2025-03-05 02:19:28,423 - INFO - Progress: 263/1000 pages processed
+2025-03-05 02:19:28,423 - INFO - Crawling page 264/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/#4-magic-mode-simplified-automation
+2025-03-05 02:19:28,604 - INFO - Progress: 264/1000 pages processed
+2025-03-05 02:19:28,605 - INFO - Crawling page 265/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/#5-comparing-managed-browsers-vs-magic-mode
+2025-03-05 02:19:28,765 - INFO - Progress: 265/1000 pages processed
+2025-03-05 02:19:28,765 - INFO - Crawling page 266/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/#6-using-the-browserprofiler-class
+2025-03-05 02:19:28,927 - INFO - Progress: 266/1000 pages processed
+2025-03-05 02:19:28,927 - INFO - Crawling page 267/1000: https://crawl4ai.com/mkdocs/advanced/identity-based-crawling/#7-summary
+2025-03-05 02:19:29,086 - INFO - Progress: 267/1000 pages processed
+2025-03-05 02:19:29,086 - INFO - Crawling page 268/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/#
+2025-03-05 02:19:29,336 - INFO - Progress: 268/1000 pages processed
+2025-03-05 02:19:29,337 - INFO - Crawling page 269/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/#sslcertificate-reference
+2025-03-05 02:19:29,494 - INFO - Progress: 269/1000 pages processed
+2025-03-05 02:19:29,494 - INFO - Crawling page 270/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/#1-overview
+2025-03-05 02:19:29,652 - INFO - Progress: 270/1000 pages processed
+2025-03-05 02:19:29,652 - INFO - Crawling page 271/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/#2-construction-fetching
+2025-03-05 02:19:29,809 - INFO - Progress: 271/1000 pages processed
+2025-03-05 02:19:29,809 - INFO - Crawling page 272/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/#3-common-properties
+2025-03-05 02:19:29,967 - INFO - Progress: 272/1000 pages processed
+2025-03-05 02:19:29,967 - INFO - Crawling page 273/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/#4-export-methods
+2025-03-05 02:19:30,126 - INFO - Progress: 273/1000 pages processed
+2025-03-05 02:19:30,126 - INFO - Crawling page 274/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/#5-example-usage-in-crawl4ai
+2025-03-05 02:19:30,284 - INFO - Progress: 274/1000 pages processed
+2025-03-05 02:19:30,284 - INFO - Crawling page 275/1000: https://crawl4ai.com/mkdocs/advanced/ssl-certificate/#6-notes-best-practices
+2025-03-05 02:19:30,447 - INFO - Progress: 275/1000 pages processed
+2025-03-05 02:19:30,447 - INFO - Crawling page 276/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#
+2025-03-05 02:19:30,741 - INFO - Progress: 276/1000 pages processed
+2025-03-05 02:19:30,741 - INFO - Crawling page 277/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#extracting-json-no-llm
+2025-03-05 02:19:30,925 - INFO - Progress: 277/1000 pages processed
+2025-03-05 02:19:30,925 - INFO - Crawling page 278/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#1-intro-to-schema-based-extraction
+2025-03-05 02:19:31,109 - INFO - Progress: 278/1000 pages processed
+2025-03-05 02:19:31,109 - INFO - Crawling page 279/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#2-simple-example-crypto-prices
+2025-03-05 02:19:31,290 - INFO - Progress: 279/1000 pages processed
+2025-03-05 02:19:31,290 - INFO - Crawling page 280/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#3-advanced-schema-nested-structures
+2025-03-05 02:19:31,474 - INFO - Progress: 280/1000 pages processed
+2025-03-05 02:19:31,474 - INFO - Crawling page 281/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#4-why-no-llm-is-often-better
+2025-03-05 02:19:31,657 - INFO - Progress: 281/1000 pages processed
+2025-03-05 02:19:31,657 - INFO - Crawling page 282/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#5-base-element-attributes-additional-fields
+2025-03-05 02:19:31,840 - INFO - Progress: 282/1000 pages processed
+2025-03-05 02:19:31,840 - INFO - Crawling page 283/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#6-putting-it-all-together-larger-example
+2025-03-05 02:19:32,019 - INFO - Progress: 283/1000 pages processed
+2025-03-05 02:19:32,019 - INFO - Crawling page 284/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#7-tips-best-practices
+2025-03-05 02:19:32,202 - INFO - Progress: 284/1000 pages processed
+2025-03-05 02:19:32,202 - INFO - Crawling page 285/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#8-schema-generation-utility
+2025-03-05 02:19:32,408 - INFO - Progress: 285/1000 pages processed
+2025-03-05 02:19:32,409 - INFO - Crawling page 286/1000: https://crawl4ai.com/mkdocs/extraction/no-llm-strategies/#9-conclusion
+2025-03-05 02:19:32,590 - INFO - Progress: 286/1000 pages processed
+2025-03-05 02:19:32,590 - INFO - Crawling page 287/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#
+2025-03-05 02:19:32,864 - INFO - Progress: 287/1000 pages processed
+2025-03-05 02:19:32,864 - INFO - Crawling page 288/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#extracting-json-llm
+2025-03-05 02:19:33,052 - INFO - Progress: 288/1000 pages processed
+2025-03-05 02:19:33,052 - INFO - Crawling page 289/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#1-why-use-an-llm
+2025-03-05 02:19:33,242 - INFO - Progress: 289/1000 pages processed
+2025-03-05 02:19:33,242 - INFO - Crawling page 290/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#2-provider-agnostic-via-lightllm
+2025-03-05 02:19:33,432 - INFO - Progress: 290/1000 pages processed
+2025-03-05 02:19:33,432 - INFO - Crawling page 291/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#3-how-llm-extraction-works
+2025-03-05 02:19:33,638 - INFO - Progress: 291/1000 pages processed
+2025-03-05 02:19:33,638 - INFO - Crawling page 292/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#4-key-parameters
+2025-03-05 02:19:33,830 - INFO - Progress: 292/1000 pages processed
+2025-03-05 02:19:33,830 - INFO - Crawling page 293/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#5-putting-it-in-crawlerrunconfig
+2025-03-05 02:19:34,020 - INFO - Progress: 293/1000 pages processed
+2025-03-05 02:19:34,021 - INFO - Crawling page 294/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#6-chunking-details
+2025-03-05 02:19:34,212 - INFO - Progress: 294/1000 pages processed
+2025-03-05 02:19:34,212 - INFO - Crawling page 295/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#7-input-format
+2025-03-05 02:19:34,404 - INFO - Progress: 295/1000 pages processed
+2025-03-05 02:19:34,404 - INFO - Crawling page 296/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#8-token-usage-show-usage
+2025-03-05 02:19:34,607 - INFO - Progress: 296/1000 pages processed
+2025-03-05 02:19:34,607 - INFO - Crawling page 297/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#9-example-building-a-knowledge-graph
+2025-03-05 02:19:34,798 - INFO - Progress: 297/1000 pages processed
+2025-03-05 02:19:34,799 - INFO - Crawling page 298/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#10-best-practices-caveats
+2025-03-05 02:19:34,988 - INFO - Progress: 298/1000 pages processed
+2025-03-05 02:19:34,988 - INFO - Crawling page 299/1000: https://crawl4ai.com/mkdocs/extraction/llm-strategies/#11-conclusion
+2025-03-05 02:19:35,178 - INFO - Progress: 299/1000 pages processed
+2025-03-05 02:19:35,178 - INFO - Crawling page 300/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#
+2025-03-05 02:19:35,426 - INFO - Progress: 300/1000 pages processed
+2025-03-05 02:19:35,426 - INFO - Crawling page 301/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#cosine-strategy
+2025-03-05 02:19:35,589 - INFO - Progress: 301/1000 pages processed
+2025-03-05 02:19:35,590 - INFO - Crawling page 302/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#how-it-works
+2025-03-05 02:19:35,750 - INFO - Progress: 302/1000 pages processed
+2025-03-05 02:19:35,750 - INFO - Crawling page 303/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#basic-usage
+2025-03-05 02:19:35,913 - INFO - Progress: 303/1000 pages processed
+2025-03-05 02:19:35,913 - INFO - Crawling page 304/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#configuration-options
+2025-03-05 02:19:36,075 - INFO - Progress: 304/1000 pages processed
+2025-03-05 02:19:36,075 - INFO - Crawling page 305/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#use-cases
+2025-03-05 02:19:36,238 - INFO - Progress: 305/1000 pages processed
+2025-03-05 02:19:36,238 - INFO - Crawling page 306/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#advanced-features
+2025-03-05 02:19:36,427 - INFO - Progress: 306/1000 pages processed
+2025-03-05 02:19:36,427 - INFO - Crawling page 307/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#best-practices
+2025-03-05 02:19:36,587 - INFO - Progress: 307/1000 pages processed
+2025-03-05 02:19:36,587 - INFO - Crawling page 308/1000: https://crawl4ai.com/mkdocs/extraction/clustring-strategies/#error-handling
+2025-03-05 02:19:36,748 - INFO - Progress: 308/1000 pages processed
+2025-03-05 02:19:36,748 - INFO - Crawling page 309/1000: https://crawl4ai.com/mkdocs/extraction/chunking/#
+2025-03-05 02:19:36,977 - INFO - Progress: 309/1000 pages processed
+2025-03-05 02:19:36,977 - INFO - Crawling page 310/1000: https://crawl4ai.com/mkdocs/extraction/chunking/#chunking-strategies
+2025-03-05 02:19:37,129 - INFO - Progress: 310/1000 pages processed
+2025-03-05 02:19:37,129 - INFO - Crawling page 311/1000: https://crawl4ai.com/mkdocs/extraction/chunking/#why-use-chunking
+2025-03-05 02:19:37,280 - INFO - Progress: 311/1000 pages processed
+2025-03-05 02:19:37,280 - INFO - Crawling page 312/1000: https://crawl4ai.com/mkdocs/extraction/chunking/#methods-of-chunking
+2025-03-05 02:19:37,431 - INFO - Progress: 312/1000 pages processed
+2025-03-05 02:19:37,431 - INFO - Crawling page 313/1000: https://crawl4ai.com/mkdocs/extraction/chunking/#combining-chunking-with-cosine-similarity
+2025-03-05 02:19:37,581 - INFO - Progress: 313/1000 pages processed
+2025-03-05 02:19:37,581 - INFO - Crawling page 314/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/#
+2025-03-05 02:19:37,835 - INFO - Progress: 314/1000 pages processed
+2025-03-05 02:19:37,835 - INFO - Crawling page 315/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/#asyncwebcrawler
+2025-03-05 02:19:38,002 - INFO - Progress: 315/1000 pages processed
+2025-03-05 02:19:38,002 - INFO - Crawling page 316/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/#1-constructor-overview
+2025-03-05 02:19:38,170 - INFO - Progress: 316/1000 pages processed
+2025-03-05 02:19:38,170 - INFO - Crawling page 317/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/#2-lifecycle-startclose-or-context-manager
+2025-03-05 02:19:38,348 - INFO - Progress: 317/1000 pages processed
+2025-03-05 02:19:38,348 - INFO - Crawling page 318/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/#3-primary-method-arun
+2025-03-05 02:19:38,520 - INFO - Progress: 318/1000 pages processed
+2025-03-05 02:19:38,521 - INFO - Crawling page 319/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/#4-batch-processing-arun_many
+2025-03-05 02:19:38,688 - INFO - Progress: 319/1000 pages processed
+2025-03-05 02:19:38,688 - INFO - Crawling page 320/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/#7-best-practices-migration-notes
+2025-03-05 02:19:38,855 - INFO - Progress: 320/1000 pages processed
+2025-03-05 02:19:38,856 - INFO - Crawling page 321/1000: https://crawl4ai.com/mkdocs/api/async-webcrawler/#8-summary
+2025-03-05 02:19:39,021 - INFO - Progress: 321/1000 pages processed
+2025-03-05 02:19:39,021 - INFO - Crawling page 322/1000: https://crawl4ai.com/mkdocs/api/arun/#
+2025-03-05 02:19:39,289 - INFO - Progress: 322/1000 pages processed
+2025-03-05 02:19:39,289 - INFO - Crawling page 323/1000: https://crawl4ai.com/mkdocs/api/arun/#arun-parameter-guide-new-approach
+2025-03-05 02:19:39,466 - INFO - Progress: 323/1000 pages processed
+2025-03-05 02:19:39,466 - INFO - Crawling page 324/1000: https://crawl4ai.com/mkdocs/api/arun/#1-core-usage
+2025-03-05 02:19:39,647 - INFO - Progress: 324/1000 pages processed
+2025-03-05 02:19:39,647 - INFO - Crawling page 325/1000: https://crawl4ai.com/mkdocs/api/arun/#2-cache-control
+2025-03-05 02:19:39,826 - INFO - Progress: 325/1000 pages processed
+2025-03-05 02:19:39,826 - INFO - Crawling page 326/1000: https://crawl4ai.com/mkdocs/api/arun/#3-content-processing-selection
+2025-03-05 02:19:40,008 - INFO - Progress: 326/1000 pages processed
+2025-03-05 02:19:40,008 - INFO - Crawling page 327/1000: https://crawl4ai.com/mkdocs/api/arun/#4-page-navigation-timing
+2025-03-05 02:19:40,184 - INFO - Progress: 327/1000 pages processed
+2025-03-05 02:19:40,184 - INFO - Crawling page 328/1000: https://crawl4ai.com/mkdocs/api/arun/#5-session-management
+2025-03-05 02:19:40,369 - INFO - Progress: 328/1000 pages processed
+2025-03-05 02:19:40,369 - INFO - Crawling page 329/1000: https://crawl4ai.com/mkdocs/api/arun/#6-screenshot-pdf-media-options
+2025-03-05 02:19:40,576 - INFO - Progress: 329/1000 pages processed
+2025-03-05 02:19:40,576 - INFO - Crawling page 330/1000: https://crawl4ai.com/mkdocs/api/arun/#7-extraction-strategy
+2025-03-05 02:19:40,757 - INFO - Progress: 330/1000 pages processed
+2025-03-05 02:19:40,757 - INFO - Crawling page 331/1000: https://crawl4ai.com/mkdocs/api/arun/#8-comprehensive-example
+2025-03-05 02:19:40,940 - INFO - Progress: 331/1000 pages processed
+2025-03-05 02:19:40,940 - INFO - Crawling page 332/1000: https://crawl4ai.com/mkdocs/api/arun/#9-best-practices
+2025-03-05 02:19:41,151 - INFO - Progress: 332/1000 pages processed
+2025-03-05 02:19:41,151 - INFO - Crawling page 333/1000: https://crawl4ai.com/mkdocs/api/arun/#10-conclusion
+2025-03-05 02:19:41,332 - INFO - Progress: 333/1000 pages processed
+2025-03-05 02:19:41,332 - INFO - Crawling page 334/1000: https://crawl4ai.com/mkdocs/api/arun_many/#
+2025-03-05 02:19:41,572 - INFO - Progress: 334/1000 pages processed
+2025-03-05 02:19:41,572 - INFO - Crawling page 335/1000: https://crawl4ai.com/mkdocs/api/arun_many/#arun_many-reference
+2025-03-05 02:19:41,745 - INFO - Progress: 335/1000 pages processed
+2025-03-05 02:19:41,745 - INFO - Crawling page 336/1000: https://crawl4ai.com/mkdocs/api/arun_many/#function-signature
+2025-03-05 02:19:41,922 - INFO - Progress: 336/1000 pages processed
+2025-03-05 02:19:41,922 - INFO - Crawling page 337/1000: https://crawl4ai.com/mkdocs/api/arun_many/#differences-from-arun
+2025-03-05 02:19:42,115 - INFO - Progress: 337/1000 pages processed
+2025-03-05 02:19:42,115 - INFO - Crawling page 338/1000: https://crawl4ai.com/mkdocs/api/arun_many/#dispatcher-reference
+2025-03-05 02:19:42,364 - INFO - Progress: 338/1000 pages processed
+2025-03-05 02:19:42,364 - INFO - Crawling page 339/1000: https://crawl4ai.com/mkdocs/api/arun_many/#common-pitfalls
+2025-03-05 02:19:42,549 - INFO - Progress: 339/1000 pages processed
+2025-03-05 02:19:42,550 - INFO - Crawling page 340/1000: https://crawl4ai.com/mkdocs/api/arun_many/#conclusion
+2025-03-05 02:19:42,801 - INFO - Progress: 340/1000 pages processed
+2025-03-05 02:19:42,801 - INFO - Crawling page 341/1000: https://crawl4ai.com/mkdocs/api/parameters/#
+2025-03-05 02:19:43,233 - INFO - Progress: 341/1000 pages processed
+2025-03-05 02:19:43,233 - INFO - Crawling page 342/1000: https://crawl4ai.com/mkdocs/api/parameters/#1-browserconfig-controlling-the-browser
+2025-03-05 02:19:43,428 - INFO - Progress: 342/1000 pages processed
+2025-03-05 02:19:43,429 - INFO - Crawling page 343/1000: https://crawl4ai.com/mkdocs/api/parameters/#11-parameter-highlights
+2025-03-05 02:19:43,616 - INFO - Progress: 343/1000 pages processed
+2025-03-05 02:19:43,616 - INFO - Crawling page 344/1000: https://crawl4ai.com/mkdocs/api/parameters/#2-crawlerrunconfig-controlling-each-crawl
+2025-03-05 02:19:43,805 - INFO - Progress: 344/1000 pages processed
+2025-03-05 02:19:43,805 - INFO - Crawling page 345/1000: https://crawl4ai.com/mkdocs/api/parameters/#21-parameter-highlights
+2025-03-05 02:19:43,993 - INFO - Progress: 345/1000 pages processed
+2025-03-05 02:19:43,993 - INFO - Crawling page 346/1000: https://crawl4ai.com/mkdocs/api/parameters/#22-helper-methods
+2025-03-05 02:19:44,185 - INFO - Progress: 346/1000 pages processed
+2025-03-05 02:19:44,185 - INFO - Crawling page 347/1000: https://crawl4ai.com/mkdocs/api/parameters/#23-example-usage
+2025-03-05 02:19:44,373 - INFO - Progress: 347/1000 pages processed
+2025-03-05 02:19:44,373 - INFO - Crawling page 348/1000: https://crawl4ai.com/mkdocs/api/parameters/#3-llmconfig-setting-up-llm-providers
+2025-03-05 02:19:44,564 - INFO - Progress: 348/1000 pages processed
+2025-03-05 02:19:44,564 - INFO - Crawling page 349/1000: https://crawl4ai.com/mkdocs/api/parameters/#31-parameters
+2025-03-05 02:19:44,750 - INFO - Progress: 349/1000 pages processed
+2025-03-05 02:19:44,750 - INFO - Crawling page 350/1000: https://crawl4ai.com/mkdocs/api/parameters/#32-example-usage
+2025-03-05 02:19:44,932 - INFO - Progress: 350/1000 pages processed
+2025-03-05 02:19:44,932 - INFO - Crawling page 351/1000: https://crawl4ai.com/mkdocs/api/parameters/#4-putting-it-all-together
+2025-03-05 02:19:45,148 - INFO - Progress: 351/1000 pages processed
+2025-03-05 02:19:45,148 - INFO - Crawling page 352/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#
+2025-03-05 02:19:45,480 - INFO - Progress: 352/1000 pages processed
+2025-03-05 02:19:45,480 - INFO - Crawling page 353/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#crawlresult-reference
+2025-03-05 02:19:45,706 - INFO - Progress: 353/1000 pages processed
+2025-03-05 02:19:45,706 - INFO - Crawling page 354/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#1-basic-crawl-info
+2025-03-05 02:19:45,905 - INFO - Progress: 354/1000 pages processed
+2025-03-05 02:19:45,905 - INFO - Crawling page 355/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#2-raw-cleaned-content
+2025-03-05 02:19:46,089 - INFO - Progress: 355/1000 pages processed
+2025-03-05 02:19:46,090 - INFO - Crawling page 356/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#3-markdown-fields
+2025-03-05 02:19:46,288 - INFO - Progress: 356/1000 pages processed
+2025-03-05 02:19:46,288 - INFO - Crawling page 357/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#4-media-links
+2025-03-05 02:19:46,475 - INFO - Progress: 357/1000 pages processed
+2025-03-05 02:19:46,475 - INFO - Crawling page 358/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#5-additional-fields
+2025-03-05 02:19:46,668 - INFO - Progress: 358/1000 pages processed
+2025-03-05 02:19:46,668 - INFO - Crawling page 359/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#6-dispatch_result-optional
+2025-03-05 02:19:46,858 - INFO - Progress: 359/1000 pages processed
+2025-03-05 02:19:46,858 - INFO - Crawling page 360/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#7-example-accessing-everything
+2025-03-05 02:19:47,053 - INFO - Progress: 360/1000 pages processed
+2025-03-05 02:19:47,053 - INFO - Crawling page 361/1000: https://crawl4ai.com/mkdocs/api/crawl-result/#8-key-points-future
+2025-03-05 02:19:47,253 - INFO - Progress: 361/1000 pages processed
+2025-03-05 02:19:47,253 - INFO - Crawling page 362/1000: https://crawl4ai.com/mkdocs/api/strategies/#
+2025-03-05 02:19:47,545 - INFO - Progress: 362/1000 pages processed
+2025-03-05 02:19:47,545 - INFO - Crawling page 363/1000: https://crawl4ai.com/mkdocs/api/strategies/#extraction-chunking-strategies-api
+2025-03-05 02:19:47,728 - INFO - Progress: 363/1000 pages processed
+2025-03-05 02:19:47,729 - INFO - Crawling page 364/1000: https://crawl4ai.com/mkdocs/api/strategies/#extraction-strategies
+2025-03-05 02:19:47,910 - INFO - Progress: 364/1000 pages processed
+2025-03-05 02:19:47,910 - INFO - Crawling page 365/1000: https://crawl4ai.com/mkdocs/api/strategies/#chunking-strategies
+2025-03-05 02:19:48,085 - INFO - Progress: 365/1000 pages processed
+2025-03-05 02:19:48,085 - INFO - Crawling page 366/1000: https://crawl4ai.com/mkdocs/api/strategies/#usage-examples
+2025-03-05 02:19:48,258 - INFO - Progress: 366/1000 pages processed
+2025-03-05 02:19:48,258 - INFO - Crawling page 367/1000: https://crawl4ai.com/mkdocs/api/strategies/#best-practices
+2025-03-05 02:19:48,432 - INFO - Progress: 367/1000 pages processed
+2025-03-05 02:19:48,432 - INFO - Crawling page 368/1000: https://crawl4ai.com/mkdocs/blog/releases/0.5.0/#
+2025-03-05 02:19:48,826 - INFO - Progress: 368/1000 pages processed
+2025-03-05 02:19:48,827 - INFO - Crawling page 369/1000: https://crawl4ai.com/mkdocs/blog/releases/0.5.0/#crawl4ai-v050-release-notes
+2025-03-05 02:19:49,027 - INFO - Progress: 369/1000 pages processed
+2025-03-05 02:19:49,027 - INFO - Crawling page 370/1000: https://crawl4ai.com/mkdocs/blog/releases/0.5.0/#key-features
+2025-03-05 02:19:49,232 - INFO - Progress: 370/1000 pages processed
+2025-03-05 02:19:49,232 - INFO - Crawling page 371/1000: https://crawl4ai.com/mkdocs/blog/releases/0.5.0/#other-changes-and-improvements
+2025-03-05 02:19:49,430 - INFO - Progress: 371/1000 pages processed
+2025-03-05 02:19:49,430 - INFO - Crawling page 372/1000: https://crawl4ai.com/mkdocs/blog/releases/0.5.0/#breaking-changes-summary
+2025-03-05 02:19:49,629 - INFO - Progress: 372/1000 pages processed
+2025-03-05 02:19:49,629 - INFO - Crawling page 373/1000: https://crawl4ai.com/mkdocs/blog/releases/0.5.0/#migration-guide
+2025-03-05 02:19:49,821 - INFO - Progress: 373/1000 pages processed
+2025-03-05 02:19:49,821 - INFO - Crawling page 374/1000: https://crawl4ai.com/mkdocs/blog/releases/docs/md_v2/core/cli.md
+2025-03-05 02:19:52,021 - INFO - Progress: 374/1000 pages processed
+2025-03-05 02:19:52,021 - INFO - Crawling page 375/1000: https://crawl4ai.com/
+2025-03-05 02:19:53,496 - INFO - Progress: 375/1000 pages processed
+2025-03-05 02:19:53,496 - INFO - Crawling page 376/1000: https://crawl4ai.com/core/quickstart/
+2025-03-05 02:19:53,904 - INFO - Progress: 376/1000 pages processed
+2025-03-05 02:19:53,904 - INFO - Crawling page 377/1000: https://crawl4ai.com/mkdocs/deploy/docker/README.md#
+2025-03-05 02:19:54,992 - INFO - Progress: 377/1000 pages processed
+2025-03-05 02:19:54,992 - INFO - Crawling page 378/1000: https://crawl4ai.com/core/installation/
+2025-03-05 02:19:55,396 - INFO - Progress: 378/1000 pages processed
+2025-03-05 02:19:55,396 - INFO - Crawling page 379/1000: https://crawl4ai.com/core/docker-deployment/
+2025-03-05 02:19:55,791 - INFO - Progress: 379/1000 pages processed
+2025-03-05 02:19:55,791 - INFO - Crawling page 380/1000: https://crawl4ai.com/blog/
+2025-03-05 02:19:56,187 - INFO - Progress: 380/1000 pages processed
+2025-03-05 02:19:56,187 - INFO - Crawling page 381/1000: https://crawl4ai.com/core/cli/
+2025-03-05 02:19:56,580 - INFO - Progress: 381/1000 pages processed
+2025-03-05 02:19:56,580 - INFO - Crawling page 382/1000: https://crawl4ai.com/core/simple-crawling/
+2025-03-05 02:19:56,976 - INFO - Progress: 382/1000 pages processed
+2025-03-05 02:19:56,977 - INFO - Crawling page 383/1000: https://crawl4ai.com/core/deep-crawling/
+2025-03-05 02:19:57,378 - INFO - Progress: 383/1000 pages processed
+2025-03-05 02:19:57,379 - INFO - Crawling page 384/1000: https://crawl4ai.com/core/crawler-result/
+2025-03-05 02:19:57,778 - INFO - Progress: 384/1000 pages processed
+2025-03-05 02:19:57,778 - INFO - Crawling page 385/1000: https://crawl4ai.com/core/browser-crawler-config/
+2025-03-05 02:19:58,172 - INFO - Progress: 385/1000 pages processed
+2025-03-05 02:19:58,172 - INFO - Crawling page 386/1000: https://crawl4ai.com/core/markdown-generation/
+2025-03-05 02:19:58,569 - INFO - Progress: 386/1000 pages processed
+2025-03-05 02:19:58,569 - INFO - Crawling page 387/1000: https://crawl4ai.com/core/fit-markdown/
+2025-03-05 02:19:58,967 - INFO - Progress: 387/1000 pages processed
+2025-03-05 02:19:58,967 - INFO - Crawling page 388/1000: https://crawl4ai.com/core/page-interaction/
+2025-03-05 02:19:59,362 - INFO - Progress: 388/1000 pages processed
+2025-03-05 02:19:59,362 - INFO - Crawling page 389/1000: https://crawl4ai.com/core/content-selection/
+2025-03-05 02:19:59,760 - INFO - Progress: 389/1000 pages processed
+2025-03-05 02:19:59,760 - INFO - Crawling page 390/1000: https://crawl4ai.com/core/cache-modes/
+2025-03-05 02:20:00,158 - INFO - Progress: 390/1000 pages processed
+2025-03-05 02:20:00,158 - INFO - Crawling page 391/1000: https://crawl4ai.com/core/local-files/
+2025-03-05 02:20:00,550 - INFO - Progress: 391/1000 pages processed
+2025-03-05 02:20:00,550 - INFO - Crawling page 392/1000: https://crawl4ai.com/core/link-media/
+2025-03-05 02:20:00,941 - INFO - Progress: 392/1000 pages processed
+2025-03-05 02:20:00,942 - INFO - Crawling page 393/1000: https://crawl4ai.com/advanced/advanced-features/
+2025-03-05 02:20:01,333 - INFO - Progress: 393/1000 pages processed
+2025-03-05 02:20:01,333 - INFO - Crawling page 394/1000: https://crawl4ai.com/advanced/file-downloading/
+2025-03-05 02:20:01,728 - INFO - Progress: 394/1000 pages processed
+2025-03-05 02:20:01,729 - INFO - Crawling page 395/1000: https://crawl4ai.com/advanced/lazy-loading/
+2025-03-05 02:20:02,124 - INFO - Progress: 395/1000 pages processed
+2025-03-05 02:20:02,124 - INFO - Crawling page 396/1000: https://crawl4ai.com/advanced/hooks-auth/
+2025-03-05 02:20:02,522 - INFO - Progress: 396/1000 pages processed
+2025-03-05 02:20:02,522 - INFO - Crawling page 397/1000: https://crawl4ai.com/advanced/proxy-security/
+2025-03-05 02:20:02,911 - INFO - Progress: 397/1000 pages processed
+2025-03-05 02:20:02,911 - INFO - Crawling page 398/1000: https://crawl4ai.com/advanced/session-management/
+2025-03-05 02:20:03,311 - INFO - Progress: 398/1000 pages processed
+2025-03-05 02:20:03,311 - INFO - Crawling page 399/1000: https://crawl4ai.com/advanced/multi-url-crawling/
+2025-03-05 02:20:03,707 - INFO - Progress: 399/1000 pages processed
+2025-03-05 02:20:03,707 - INFO - Crawling page 400/1000: https://crawl4ai.com/advanced/crawl-dispatcher/
+2025-03-05 02:20:04,104 - INFO - Progress: 400/1000 pages processed
+2025-03-05 02:20:04,104 - INFO - Crawling page 401/1000: https://crawl4ai.com/advanced/identity-based-crawling/
+2025-03-05 02:20:04,495 - INFO - Progress: 401/1000 pages processed
+2025-03-05 02:20:04,496 - INFO - Crawling page 402/1000: https://crawl4ai.com/advanced/ssl-certificate/
+2025-03-05 02:20:04,891 - INFO - Progress: 402/1000 pages processed
+2025-03-05 02:20:04,891 - INFO - Crawling page 403/1000: https://crawl4ai.com/extraction/no-llm-strategies/
+2025-03-05 02:20:05,286 - INFO - Progress: 403/1000 pages processed
+2025-03-05 02:20:05,286 - INFO - Crawling page 404/1000: https://crawl4ai.com/extraction/llm-strategies/
+2025-03-05 02:20:05,683 - INFO - Progress: 404/1000 pages processed
+2025-03-05 02:20:05,683 - INFO - Crawling page 405/1000: https://crawl4ai.com/extraction/clustring-strategies/
+2025-03-05 02:20:06,077 - INFO - Progress: 405/1000 pages processed
+2025-03-05 02:20:06,077 - INFO - Crawling page 406/1000: https://crawl4ai.com/extraction/chunking/
+2025-03-05 02:20:06,473 - INFO - Progress: 406/1000 pages processed
+2025-03-05 02:20:06,473 - INFO - Crawling page 407/1000: https://crawl4ai.com/api/async-webcrawler/
+2025-03-05 02:20:06,867 - INFO - Progress: 407/1000 pages processed
+2025-03-05 02:20:06,867 - INFO - Crawling page 408/1000: https://crawl4ai.com/api/arun/
+2025-03-05 02:20:07,263 - INFO - Progress: 408/1000 pages processed
+2025-03-05 02:20:07,263 - INFO - Crawling page 409/1000: https://crawl4ai.com/api/arun_many/
+2025-03-05 02:20:07,661 - INFO - Progress: 409/1000 pages processed
+2025-03-05 02:20:07,661 - INFO - Crawling page 410/1000: https://crawl4ai.com/api/parameters/
+2025-03-05 02:20:08,057 - INFO - Progress: 410/1000 pages processed
+2025-03-05 02:20:08,057 - INFO - Crawling page 411/1000: https://crawl4ai.com/api/crawl-result/
+2025-03-05 02:20:08,453 - INFO - Progress: 411/1000 pages processed
+2025-03-05 02:20:08,453 - INFO - Crawling page 412/1000: https://crawl4ai.com/api/strategies/
+2025-03-05 02:20:08,848 - INFO - Progress: 412/1000 pages processed
+2025-03-05 02:20:08,848 - INFO - Crawling page 413/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#
+2025-03-05 02:20:09,102 - INFO - Progress: 413/1000 pages processed
+2025-03-05 02:20:09,102 - INFO - Crawling page 414/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#crawl4ai-042-update-smarter-crawling-just-got-easier-dec-12-2024
+2025-03-05 02:20:09,288 - INFO - Progress: 414/1000 pages processed
+2025-03-05 02:20:09,288 - INFO - Crawling page 415/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#hey-developers
+2025-03-05 02:20:09,471 - INFO - Progress: 415/1000 pages processed
+2025-03-05 02:20:09,471 - INFO - Crawling page 416/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#configurable-browser-and-crawler-behavior
+2025-03-05 02:20:09,663 - INFO - Progress: 416/1000 pages processed
+2025-03-05 02:20:09,663 - INFO - Crawling page 417/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#streamlined-session-management
+2025-03-05 02:20:09,843 - INFO - Progress: 417/1000 pages processed
+2025-03-05 02:20:09,843 - INFO - Crawling page 418/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#handling-large-pages-supercharged-screenshots-and-pdf-conversion
+2025-03-05 02:20:10,022 - INFO - Progress: 418/1000 pages processed
+2025-03-05 02:20:10,023 - INFO - Crawling page 419/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#other-cool-stuff
+2025-03-05 02:20:10,207 - INFO - Progress: 419/1000 pages processed
+2025-03-05 02:20:10,207 - INFO - Crawling page 420/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#performance-boosts-and-dev-friendly-updates
+2025-03-05 02:20:10,385 - INFO - Progress: 420/1000 pages processed
+2025-03-05 02:20:10,385 - INFO - Crawling page 421/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#use-cases-youll-love
+2025-03-05 02:20:10,565 - INFO - Progress: 421/1000 pages processed
+2025-03-05 02:20:10,566 - INFO - Crawling page 422/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.2/#lets-get-crawling
+2025-03-05 02:20:10,751 - INFO - Progress: 422/1000 pages processed
+2025-03-05 02:20:10,751 - INFO - Crawling page 423/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#
+2025-03-05 02:20:11,063 - INFO - Progress: 423/1000 pages processed
+2025-03-05 02:20:11,064 - INFO - Crawling page 424/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#release-summary-for-version-041-december-8-2024-major-efficiency-boosts-with-new-features
+2025-03-05 02:20:11,248 - INFO - Progress: 424/1000 pages processed
+2025-03-05 02:20:11,248 - INFO - Crawling page 425/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#handling-lazy-loading-better-images-included
+2025-03-05 02:20:11,435 - INFO - Progress: 425/1000 pages processed
+2025-03-05 02:20:11,435 - INFO - Crawling page 426/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#text-only-mode-fast-lightweight-crawling
+2025-03-05 02:20:11,617 - INFO - Progress: 426/1000 pages processed
+2025-03-05 02:20:11,617 - INFO - Crawling page 427/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#adjusting-the-viewport-dynamically
+2025-03-05 02:20:11,800 - INFO - Progress: 427/1000 pages processed
+2025-03-05 02:20:11,800 - INFO - Crawling page 428/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#simulating-full-page-scrolling
+2025-03-05 02:20:11,984 - INFO - Progress: 428/1000 pages processed
+2025-03-05 02:20:11,984 - INFO - Crawling page 429/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#reusing-browser-sessions-save-time-on-setup
+2025-03-05 02:20:12,162 - INFO - Progress: 429/1000 pages processed
+2025-03-05 02:20:12,162 - INFO - Crawling page 430/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#other-updates
+2025-03-05 02:20:12,342 - INFO - Progress: 430/1000 pages processed
+2025-03-05 02:20:12,342 - INFO - Crawling page 431/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.1/#how-to-get-the-update
+2025-03-05 02:20:12,521 - INFO - Progress: 431/1000 pages processed
+2025-03-05 02:20:12,521 - INFO - Crawling page 432/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.0/#
+2025-03-05 02:20:12,737 - INFO - Progress: 432/1000 pages processed
+2025-03-05 02:20:12,737 - INFO - Crawling page 433/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.0/#release-summary-for-version-040-december-1-2024
+2025-03-05 02:20:12,916 - INFO - Progress: 433/1000 pages processed
+2025-03-05 02:20:12,916 - INFO - Crawling page 434/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.0/#overview
+2025-03-05 02:20:13,091 - INFO - Progress: 434/1000 pages processed
+2025-03-05 02:20:13,091 - INFO - Crawling page 435/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.0/#major-features-and-enhancements
+2025-03-05 02:20:13,263 - INFO - Progress: 435/1000 pages processed
+2025-03-05 02:20:13,263 - INFO - Crawling page 436/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.0/#revised-change-logs-for-version-040
+2025-03-05 02:20:13,439 - INFO - Progress: 436/1000 pages processed
+2025-03-05 02:20:13,439 - INFO - Crawling page 437/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.0/#experimental-features
+2025-03-05 02:20:13,610 - INFO - Progress: 437/1000 pages processed
+2025-03-05 02:20:13,610 - INFO - Crawling page 438/1000: https://crawl4ai.com/mkdocs/blog/releases/0.4.0/#conclusion
+2025-03-05 02:20:13,782 - INFO - Progress: 438/1000 pages processed
+2025-03-05 02:20:13,782 - INFO - Crawling page 439/1000: https://crawl4ai.com/mkdocs/blog/releases/docs/md_v2/core/cli.md#
+2025-03-05 02:20:14,871 - INFO - Progress: 439/1000 pages processed
+2025-03-05 02:20:14,871 - INFO - Crawling completed. 439 pages processed.
+2025-03-05 02:20:14,885 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-05 02:20:40,888 - ERROR - Error in Gemini analysis: 'list' object has no attribute 'items'
+2025-03-05 02:20:40,890 - INFO - Results saved to: scraped_results\crawl4ai_com_20250305_022040.json
+2025-03-05 22:31:44,740 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-05 22:31:44,741 - INFO - ====== WebDriver manager ======
+2025-03-05 22:31:45,432 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 22:31:45,548 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 22:31:45,630 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 22:31:46,807 - INFO - Browser initialized successfully
+2025-03-05 22:31:46,807 - INFO - Crawling page 1/1000: https://www.tawil-media.de/
+2025-03-05 22:31:47,432 - INFO - Progress: 1/1000 pages processed
+2025-03-05 22:31:47,433 - INFO - Crawling page 2/1000: https://www.tawil-media.de/about-3
+2025-03-05 22:31:47,776 - INFO - Progress: 2/1000 pages processed
+2025-03-05 22:31:47,776 - INFO - Crawling page 3/1000: https://www.tawil-media.de/blank-1
+2025-03-05 22:31:48,186 - INFO - Progress: 3/1000 pages processed
+2025-03-05 22:31:48,186 - INFO - Crawling page 4/1000: https://www.tawil-media.de/services-5
+2025-03-05 22:31:48,492 - INFO - Progress: 4/1000 pages processed
+2025-03-05 22:31:48,492 - INFO - Crawling page 5/1000: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 22:31:48,775 - INFO - Progress: 5/1000 pages processed
+2025-03-05 22:31:48,775 - INFO - Crawling page 6/1000: https://www.tawil-media.de/portfolio
+2025-03-05 22:31:49,700 - INFO - Progress: 6/1000 pages processed
+2025-03-05 22:31:49,700 - INFO - Crawling page 7/1000: https://www.tawil-media.de/datenschutzerkl%C3%A4rung
+2025-03-05 22:31:50,259 - INFO - Progress: 7/1000 pages processed
+2025-03-05 22:31:50,259 - INFO - Crawling page 8/1000: https://www.tawil-media.de/agbs
+2025-03-05 22:31:50,547 - INFO - Progress: 8/1000 pages processed
+2025-03-05 22:31:50,547 - INFO - Crawling page 9/1000: https://www.tawil-media.de/impressum
+2025-03-05 22:31:50,803 - INFO - Progress: 9/1000 pages processed
+2025-03-05 22:31:50,803 - INFO - Crawling page 10/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/hochzeit-bilder
+2025-03-05 22:31:51,525 - INFO - Progress: 10/1000 pages processed
+2025-03-05 22:31:51,525 - INFO - Crawling page 11/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/modelling-lifestyle-videografie
+2025-03-05 22:31:55,216 - INFO - Progress: 11/1000 pages processed
+2025-03-05 22:31:55,216 - INFO - Crawling page 12/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/milica-fotografie
+2025-03-05 22:31:57,434 - INFO - Progress: 12/1000 pages processed
+2025-03-05 22:31:57,434 - INFO - Crawling page 13/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/auto-videografie
+2025-03-05 22:32:00,904 - INFO - Progress: 13/1000 pages processed
+2025-03-05 22:32:00,904 - INFO - Crawling page 14/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/baba-ko%CC%88fte
+2025-03-05 22:32:03,090 - INFO - Progress: 14/1000 pages processed
+2025-03-05 22:32:03,090 - INFO - Crawling page 15/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/baby-und-familie-fotografie
+2025-03-05 22:32:06,839 - INFO - Progress: 15/1000 pages processed
+2025-03-05 22:32:06,839 - INFO - Crawling page 16/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/gewerbliche-schule-geislingen
+2025-03-05 22:32:09,540 - INFO - Progress: 16/1000 pages processed
+2025-03-05 22:32:09,541 - INFO - Crawling page 17/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/jovana
+2025-03-05 22:32:13,390 - INFO - Progress: 17/1000 pages processed
+2025-03-05 22:32:13,391 - INFO - Crawling page 18/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/werbevideos-fu%CC%88r-fitnessstudio-easyfitness-go%CC%88ppingen
+2025-03-05 22:32:15,941 - INFO - Progress: 18/1000 pages processed
+2025-03-05 22:32:15,941 - INFO - Crawling page 19/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/modeportra%CC%88ts-eleganz-und-stil%22
+2025-03-05 22:32:19,989 - INFO - Progress: 19/1000 pages processed
+2025-03-05 22:32:19,989 - INFO - Crawling page 20/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/project-title-6
+2025-03-05 22:32:22,182 - INFO - Progress: 20/1000 pages processed
+2025-03-05 22:32:22,182 - INFO - Crawling page 21/1000: https://www.tawil-media.de/portfolio-collections/my-portfolio/project-title-1
+2025-03-05 22:32:24,098 - INFO - Progress: 21/1000 pages processed
+2025-03-05 22:32:24,098 - INFO - Crawling completed. 21 pages processed.
+2025-03-05 22:32:24,099 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-05 22:32:35,850 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250305_223235.json
+2025-03-05 22:47:03,578 - INFO - ====== WebDriver manager ======
+2025-03-05 22:47:04,247 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 22:47:04,325 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 22:47:04,403 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 22:47:05,410 - INFO - Crawling page 1/5: https://www.tawil-media.de/
+2025-03-05 22:47:05,940 - INFO - Progress: 1/5
+2025-03-05 22:47:05,940 - INFO - Crawling page 2/5: https://www.tawil-media.de/about-3
+2025-03-05 22:47:06,163 - INFO - Progress: 2/5
+2025-03-05 22:47:06,163 - INFO - Crawling page 3/5: https://www.tawil-media.de/blank-1
+2025-03-05 22:47:06,458 - INFO - Progress: 3/5
+2025-03-05 22:47:06,459 - INFO - Crawling page 4/5: https://www.tawil-media.de/services-5
+2025-03-05 22:47:06,684 - INFO - Progress: 4/5
+2025-03-05 22:47:06,684 - INFO - Crawling page 5/5: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 22:47:06,890 - INFO - Progress: 5/5
+2025-03-05 22:47:09,204 - ERROR - Error in Gemini analysis: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-03-05 22:47:09,255 - ERROR - Error in Gemini analysis: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-03-05 22:47:09,387 - ERROR - Error in Gemini analysis: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+, locale: "en-US"
+message: "API key not valid. Please pass a valid API key."
+]
+2025-03-05 22:47:09,388 - INFO - Results saved to scraped_results\www_tawil-media_de_20250305_224709.json
+2025-03-05 22:48:48,051 - INFO - ====== WebDriver manager ======
+2025-03-05 22:48:48,752 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 22:48:48,829 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-05 22:48:48,917 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-05 22:48:49,884 - INFO - Crawling page 1/5: https://www.tawil-media.de/
+2025-03-05 22:48:50,394 - INFO - Progress: 1/5
+2025-03-05 22:48:50,394 - INFO - Crawling page 2/5: https://www.tawil-media.de/about-3
+2025-03-05 22:48:50,689 - INFO - Progress: 2/5
+2025-03-05 22:48:50,690 - INFO - Crawling page 3/5: https://www.tawil-media.de/blank-1
+2025-03-05 22:48:50,981 - INFO - Progress: 3/5
+2025-03-05 22:48:50,981 - INFO - Crawling page 4/5: https://www.tawil-media.de/services-5
+2025-03-05 22:48:51,217 - INFO - Progress: 4/5
+2025-03-05 22:48:51,217 - INFO - Crawling page 5/5: https://www.tawil-media.de/kopie-von-social-media
+2025-03-05 22:48:51,420 - INFO - Progress: 5/5
+2025-03-05 22:48:58,134 - WARNING - Could not parse JSON; returning default schema.
+2025-03-05 22:49:04,364 - WARNING - Could not parse JSON; returning default schema.
+2025-03-05 22:49:18,265 - WARNING - Could not parse JSON; returning default schema.
+2025-03-05 22:49:18,266 - INFO - Results saved to scraped_results\www_tawil-media_de_20250305_224918.json
+2025-03-06 00:21:35,377 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-06 00:21:35,377 - INFO - ====== WebDriver manager ======
+2025-03-06 00:21:36,330 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 00:21:36,447 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 00:21:36,521 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 00:21:36,703 - INFO - WebDriver version 133.0.6943.141 selected
+2025-03-06 00:21:36,705 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-06 00:21:36,706 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/133.0.6943.141/win32/chromedriver-win32.zip
+2025-03-06 00:21:36,928 - INFO - Driver downloading response is 200
+2025-03-06 00:21:37,405 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 00:21:37,582 - INFO - Driver has been saved in cache [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141]
+2025-03-06 00:21:38,710 - INFO - Browser initialized successfully
+2025-03-06 00:21:50,110 - INFO - Links erfolgreich von Gemini priorisiert.
+2025-03-06 00:21:50,110 - INFO - Crawling page 1/10: https://www.tawil-media.de/impressum
+2025-03-06 00:21:50,542 - INFO - Crawling page 2/10: https://www.tawil-media.de/datenschutzerklärung
+2025-03-06 00:21:50,726 - INFO - Crawling page 3/10: https://www.tawil-media.de/about-3
+2025-03-06 00:21:50,883 - INFO - Crawling page 4/10: https://wa.me/message/3V3IOKV3APFEM1
+2025-03-06 00:21:53,836 - INFO - Crawling page 5/10: https://www.facebook.com/mhmd.slih
+2025-03-06 00:21:55,337 - INFO - Crawling page 6/10: https://www.instagram.com/tawil_media/
+2025-03-06 00:21:56,315 - INFO - Crawling page 7/10: https://youtube.com/@moha_tawil?si=KsZTSgW8rXyd6Bs5
+2025-03-06 00:21:57,414 - INFO - Crawling page 8/10: https://www.tiktok.com/@tawil_media?_t=8j7k5DARXPd&_r=1
+2025-03-06 00:21:59,150 - INFO - Crawling page 9/10: https://www.tawil-media.de/agbs
+2025-03-06 00:21:59,441 - INFO - Crawling page 10/10: https://www.tawil-media.de/
+2025-03-06 00:21:59,632 - INFO - Crawling completed. 10 pages processed.
+2025-03-06 00:21:59,633 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-06 00:22:10,122 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250306_002210.json
+2025-03-06 00:23:35,918 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-06 00:23:35,918 - INFO - ====== WebDriver manager ======
+2025-03-06 00:23:36,595 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 00:23:36,674 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 00:23:36,746 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-06 00:23:37,794 - INFO - Browser initialized successfully
+2025-03-06 00:23:45,912 - INFO - Links erfolgreich von Gemini priorisiert.
+2025-03-06 00:23:45,912 - INFO - Crawling page 1/5: https://www.tawil-media.de/impressum
+2025-03-06 00:23:46,364 - INFO - Crawling page 2/5: https://www.tawil-media.de/datenschutzerklärung
+2025-03-06 00:23:46,548 - INFO - Crawling page 3/5: https://www.tawil-media.de/about-3
+2025-03-06 00:23:46,680 - INFO - Crawling page 4/5: https://wa.me/message/3V3IOKV3APFEM1
+2025-03-06 00:23:48,875 - INFO - Crawling page 5/5: https://www.facebook.com/mhmd.slih
+2025-03-06 00:23:49,647 - INFO - Crawling completed. 5 pages processed.
+2025-03-06 00:23:49,648 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-06 00:23:55,235 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250306_002355.json
+2025-03-06 02:58:03,855 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-06 02:58:03,856 - INFO - ====== WebDriver manager ======
+2025-03-06 02:58:04,749 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 02:58:05,098 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 02:58:05,189 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-06 02:58:06,232 - INFO - Browser initialized successfully
+2025-03-06 02:58:17,213 - INFO - Links erfolgreich von Gemini priorisiert.
+2025-03-06 02:58:17,213 - INFO - Crawling page 1/15: https://www.tawil-media.de/impressum
+2025-03-06 02:58:17,669 - INFO - Crawling page 2/15: https://wa.me/message/3V3IOKV3APFEM1
+2025-03-06 02:58:19,884 - INFO - Crawling page 3/15: https://www.facebook.com/mhmd.slih
+2025-03-06 02:58:20,766 - INFO - Crawling page 4/15: https://www.tawil-media.de/datenschutzerklärung
+2025-03-06 02:58:21,023 - INFO - Crawling page 5/15: https://www.tawil-media.de/about-3
+2025-03-06 02:58:21,173 - INFO - Crawling completed. 5 pages processed.
+2025-03-06 02:58:21,174 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-06 02:58:25,296 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250306_025825.json
+2025-03-06 03:01:51,227 - INFO - Gemini model initialized: genai.GenerativeModel(
+    model_name='models/gemini-2.0-flash-thinking-exp-01-21',
+    generation_config={},
+    safety_settings={},
+    tools=None,
+    system_instruction=None,
+    cached_content=None
+)
+2025-03-06 03:02:00,807 - INFO - Priorisierte Links: ['https://www.tawil-media.de/impressum', 'https://www.tawil-media.de/datenschutzerklärung', 'https://www.tawil-media.de/about-3', 'https://www.tawil-media.de/', 'https://www.tawil-media.de', 'https://www.tawil-media.de/agbs', 'https://wa.me/message/3V3IOKV3APFEM1', 'https://www.facebook.com/mhmd.slih', 'https://www.instagram.com/tawil_media/', 'https://youtube.com/@moha_tawil?si=KsZTSgW8rXyd6Bs5', 'https://www.tiktok.com/@tawil_media?_t=8j7k5DARXPd&_r=1', 'https://www.tawil-media.de/services-5', 'https://www.tawil-media.de/portfolio', 'https://www.tawil-media.de/kopie-von-social-media', 'https://www.tawil-media.de/blank-1']
+2025-03-06 03:02:38,904 - INFO - Gemini model initialized: gemini-pro
+2025-03-06 03:02:38,904 - INFO - ====== WebDriver manager ======
+2025-03-06 03:02:39,566 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 03:02:39,643 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 03:02:39,716 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-06 03:02:40,704 - INFO - Browser initialized successfully
+2025-03-06 03:02:41,244 - INFO - HTTP Request: GET https://www.tawil-media.de/ "HTTP/1.1 200 OK"
+2025-03-06 03:02:41,537 - ERROR - Error prioritizing links (attempt 1/3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-06 03:02:43,599 - ERROR - Error prioritizing links (attempt 2/3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-06 03:02:47,685 - ERROR - Error prioritizing links (attempt 3/3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-06 03:02:47,686 - INFO - Scheduling crawl (1/5): https://www.tawil-media.de
+2025-03-06 03:02:47,686 - INFO - Scheduling crawl (2/5): https://www.tawil-media.de/about-3
+2025-03-06 03:02:47,686 - INFO - Scheduling crawl (3/5): https://www.tawil-media.de/blank-1
+2025-03-06 03:02:47,686 - INFO - Scheduling crawl (4/5): https://www.tawil-media.de/services-5
+2025-03-06 03:02:47,686 - INFO - Scheduling crawl (5/5): https://www.tawil-media.de/kopie-von-social-media
+2025-03-06 03:02:48,986 - INFO - HTTP Request: GET https://www.tawil-media.de "HTTP/1.1 200 OK"
+2025-03-06 03:02:48,989 - INFO - HTTP Request: GET https://www.tawil-media.de/services-5 "HTTP/1.1 200 OK"
+2025-03-06 03:02:48,991 - INFO - HTTP Request: GET https://www.tawil-media.de/kopie-von-social-media "HTTP/1.1 200 OK"
+2025-03-06 03:02:49,005 - INFO - HTTP Request: GET https://www.tawil-media.de/about-3 "HTTP/1.1 200 OK"
+2025-03-06 03:02:49,006 - INFO - HTTP Request: GET https://www.tawil-media.de/blank-1 "HTTP/1.1 200 OK"
+2025-03-06 03:02:49,190 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-06 03:02:49,260 - ERROR - Error in Gemini analysis (attempt 1/3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-06 03:02:51,523 - ERROR - Error in Gemini analysis (attempt 2/3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-06 03:02:55,605 - ERROR - Error in Gemini analysis (attempt 3/3): 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-03-06 03:02:55,606 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250306_030255.json
+2025-03-06 03:03:34,829 - INFO - Gemini model initialized: gemini-2.0-flash-thinking-exp-01-21
+2025-03-06 03:03:34,829 - INFO - ====== WebDriver manager ======
+2025-03-06 03:03:35,545 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 03:03:35,624 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 03:03:35,696 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-06 03:03:36,751 - INFO - Browser initialized successfully
+2025-03-06 03:03:37,438 - INFO - HTTP Request: GET https://www.tawil-media.de/ "HTTP/1.1 200 OK"
+2025-03-06 03:03:44,630 - INFO - Links successfully prioritized by Gemini.
+2025-03-06 03:03:44,630 - INFO - Scheduling crawl (1/5): https://www.tawil-media.de/impressum
+2025-03-06 03:03:44,630 - INFO - Scheduling crawl (2/5): https://www.tawil-media.de/datenschutzerklärung
+2025-03-06 03:03:44,630 - INFO - Scheduling crawl (3/5): https://www.tawil-media.de/agbs
+2025-03-06 03:03:44,630 - INFO - Scheduling crawl (4/5): https://www.tawil-media.de/about-3
+2025-03-06 03:03:44,630 - INFO - Scheduling crawl (5/5): https://www.tawil-media.de/
+2025-03-06 03:03:45,960 - INFO - HTTP Request: GET https://www.tawil-media.de/impressum "HTTP/1.1 200 OK"
+2025-03-06 03:03:45,960 - INFO - HTTP Request: GET https://www.tawil-media.de/datenschutzerkl%C3%A4rung "HTTP/1.1 200 OK"
+2025-03-06 03:03:45,967 - INFO - HTTP Request: GET https://www.tawil-media.de/ "HTTP/1.1 200 OK"
+2025-03-06 03:03:45,970 - INFO - HTTP Request: GET https://www.tawil-media.de/agbs "HTTP/1.1 200 OK"
+2025-03-06 03:03:45,978 - INFO - HTTP Request: GET https://www.tawil-media.de/about-3 "HTTP/1.1 200 OK"
+2025-03-06 03:03:46,184 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-06 03:03:51,766 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250306_030351.json
+2025-03-06 03:07:42,926 - INFO - Gemini model initialized: gemini-2.0-flash-thinking-exp-01-21
+2025-03-06 03:07:43,147 - INFO - ====== WebDriver manager ======
+2025-03-06 03:07:43,811 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 03:07:43,884 - INFO - Get LATEST chromedriver version for google-chrome
+2025-03-06 03:07:43,956 - INFO - Driver [C:\Users\slih1\.wdm\drivers\chromedriver\win64\133.0.6943.141\chromedriver-win32/chromedriver.exe] found in cache
+2025-03-06 03:07:44,935 - INFO - Browser initialized successfully
+2025-03-06 03:07:45,216 - INFO - HTTP Request: GET https://www.tawil-media.de/ "HTTP/1.1 200 OK"
+2025-03-06 03:07:52,598 - INFO - Links successfully prioritized by Gemini.
+2025-03-06 03:07:52,598 - INFO - Scheduling crawl (1/5): https://www.tawil-media.de/impressum
+2025-03-06 03:07:52,599 - INFO - Scheduling crawl (2/5): https://www.tawil-media.de/datenschutzerklärung
+2025-03-06 03:07:52,599 - INFO - Scheduling crawl (3/5): https://www.tawil-media.de/agbs
+2025-03-06 03:07:52,599 - INFO - Scheduling crawl (4/5): https://www.tawil-media.de/about-3
+2025-03-06 03:07:52,599 - INFO - Scheduling crawl (5/5): https://www.tawil-media.de/services-5
+2025-03-06 03:07:52,939 - INFO - HTTP Request: GET https://www.tawil-media.de/agbs "HTTP/1.1 200 OK"
+2025-03-06 03:07:52,943 - INFO - HTTP Request: GET https://www.tawil-media.de/impressum "HTTP/1.1 200 OK"
+2025-03-06 03:07:52,944 - INFO - HTTP Request: GET https://www.tawil-media.de/about-3 "HTTP/1.1 200 OK"
+2025-03-06 03:07:53,077 - INFO - HTTP Request: GET https://www.tawil-media.de/services-5 "HTTP/1.1 200 OK"
+2025-03-06 03:07:53,078 - INFO - HTTP Request: GET https://www.tawil-media.de/datenschutzerkl%C3%A4rung "HTTP/1.1 200 OK"
+2025-03-06 03:07:53,208 - INFO - Combined page content saved to: raw_page_content\combined_page_content.txt
+2025-03-06 03:07:58,244 - INFO - Results saved to: scraped_results\www_tawil-media_de_20250306_030758.json

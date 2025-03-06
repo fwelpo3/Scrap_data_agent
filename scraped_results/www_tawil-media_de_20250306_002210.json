@@ -1,0 +1,59 @@
+{
+    "first_name": "",
+    "last_name": "",
+    "date_of_birth": "",
+    "place_of_birth": "",
+    "address": {
+        "street": "",
+        "house_number": "",
+        "postal_code": "",
+        "city": ""
+    },
+    "phone_number": "",
+    "email": "",
+    "description": "",
+    "zusätzliche_infos": {
+        "Person1": {
+            "first_name": "Saleh",
+            "last_name": "Tawil",
+            "date_of_birth": null,
+            "address": {
+                "street": "Gartenstr.",
+                "house_number": "28",
+                "postal_code": "73033",
+                "city": "Göppingen"
+            },
+            "phone_number": "0179 2929072",
+            "email": "tawil0media@gmail.com",
+            "description": "Verantwortlich für den Inhalt, Vertretungsberechtigt"
+        },
+        "Person2": {
+            "first_name": "Shadi",
+            "last_name": "Tawil",
+            "date_of_birth": null,
+            "address": {
+                "street": null,
+                "house_number": null,
+                "postal_code": null,
+                "city": null
+            },
+            "phone_number": null,
+            "email": null,
+            "description": "Vertretungsberechtigt"
+        },
+        "Person3": {
+            "first_name": "Moha",
+            "last_name": "Tawil",
+            "date_of_birth": null,
+            "address": {
+                "street": null,
+                "house_number": null,
+                "postal_code": null,
+                "city": null
+            },
+            "phone_number": null,
+            "email": null,
+            "description": "Fotografie & Video | Kreativität verbindet!"
+        }
+    }
+}

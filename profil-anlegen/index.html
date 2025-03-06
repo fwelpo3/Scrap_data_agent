@@ -1,0 +1,81 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profil Anlegen</title>
+  <style>
+    body { font-family: sans-serif; margin: 2rem; }
+    form { display: grid; grid-gap: 0.5rem; max-width: 400px; }
+    input, textarea { padding: 0.5rem; }
+  </style>
+</head>
+<body>
+  <h1>Profil Anlegen</h1>
+  <form id="profileForm">
+    <!-- Alles optional -->
+    <input type="text" name="first_name" placeholder="Vorname">
+    <input type="text" name="last_name" placeholder="Nachname">
+    <input type="date" name="date_of_birth" placeholder="Geburtsdatum">
+    <input type="text" name="place_of_birth" placeholder="Geburtsort">
+    <input type="text" name="marital_status" placeholder="Familienstand">
+
+    <input type="text" name="street" placeholder="Straße">
+    <input type="text" name="house_number" placeholder="Hausnummer">
+    <input type="text" name="postal_code" placeholder="Postleitzahl">
+    <input type="text" name="city" placeholder="Stadt">
+
+    <input type="tel" name="phone_number" placeholder="Telefonnummer">
+    <input type="email" name="email" placeholder="E-Mail">
+    <textarea name="description" placeholder="Beschreibung"></textarea>
+
+    <button type="submit">Speichern</button>
+  </form>
+
+  <!-- Link zur Profil-Übersicht -->
+  <button onclick="location.href='profiles.html'">Profile anzeigen</button>
+
+  <script>
+    const form = document.getElementById("profileForm");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+
+      // Profil-Objekt erstellen (alle Felder sind optional)
+      const newProfile = {
+        first_name: formData.get("first_name"),
+        last_name: formData.get("last_name"),
+        date_of_birth: formData.get("date_of_birth"),
+        place_of_birth: formData.get("place_of_birth"),
+        marital_status: formData.get("marital_status"),
+        address: {
+          street: formData.get("street"),
+          house_number: formData.get("house_number"),
+          postal_code: formData.get("postal_code"),
+          city: formData.get("city")
+        },
+        phone_number: formData.get("phone_number"),
+        email: formData.get("email"),
+        description: formData.get("description")
+      };
+
+      try {
+        // POST an /api/profile
+        const response = await fetch("/api/profile", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(newProfile)
+        });
+        if (!response.ok) {
+          throw new Error("Fehler beim Speichern des Profils");
+        }
+        alert("Profil gespeichert!");
+        form.reset(); // Formular zurücksetzen
+      } catch (error) {
+        alert("Fehler: " + error.message);
+      }
+    });
+  </script>
+</body>
+</html>

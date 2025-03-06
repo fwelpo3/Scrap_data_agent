@@ -1,0 +1,416 @@
+{
+    "vorname": "",
+    "nachname": "",
+    "geburtsdatum": "",
+    "geburtsort": "",
+    "geschlecht": "",
+    "adresse": {
+        "straße": "",
+        "hausnummer": "",
+        "postleitzahl": "",
+        "ort": ""
+    },
+    "telefonnummer": "",
+    "email": "",
+    "beschreibung": "",
+    "zusätzliche_infos": {
+        "unternehmen": {
+            "name": "Startup Stuttgart e.V.",
+            "beschreibung": "Der Verein für alle Gründer*innen, Startups und Startup-Interessierte in der Region Stuttgart. Unterstützt das Ökosystem und gibt Startups eine Stimme.",
+            "adresse": {
+                "straße": "Kupferstraße",
+                "hausnummer": "5",
+                "postleitzahl": "70565",
+                "ort": "Stuttgart"
+            },
+            "email": "burn@startup-stuttgart.de",
+            "telefonnummer": null
+        },
+        "personen": [
+            {
+                "vorname": "Johannes",
+                "nachname": "Ellenberg",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "PRÄSIDENT"
+            },
+            {
+                "vorname": "Anja",
+                "nachname": "Schröder",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Stellvertretende Vorsitzende"
+            },
+            {
+                "vorname": "Tobias",
+                "nachname": "Sick",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "FINANZVORSTAND, Inhaltlich Verantwortlicher gemäß § 10 Absatz 3 MDStV"
+            },
+            {
+                "vorname": "Michael",
+                "nachname": "Krüger",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Vorstandsreferent"
+            },
+            {
+                "vorname": "Frederik",
+                "nachname": "Held",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Head of IT"
+            },
+            {
+                "vorname": "Tim",
+                "nachname": "Rieger",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Head of Brand"
+            },
+            {
+                "vorname": "Dominik",
+                "nachname": "Krauß",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Head of Content, Autor der News Artikel"
+            },
+            {
+                "vorname": "Philipp",
+                "nachname": "Hagebölling",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "HEad of Partnerships"
+            },
+            {
+                "vorname": "Katja",
+                "nachname": "Weiß",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Head of Event"
+            },
+            {
+                "vorname": "Marius",
+                "nachname": "Kraus",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Circle Head - Personal Development"
+            },
+            {
+                "vorname": "Tim",
+                "nachname": "Rühle",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Circle Co-Head - FOOD"
+            },
+            {
+                "vorname": "Birgit",
+                "nachname": "Tantner",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Circle Co-Head - Food"
+            },
+            {
+                "vorname": "Bettina",
+                "nachname": "Banaj",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Circle Head - FemalE Entrepreneurship"
+            },
+            {
+                "vorname": "Katrin",
+                "nachname": "Lichius",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Circle Head - Entrepreneurship Education"
+            },
+            {
+                "vorname": "Nils",
+                "nachname": "Högsdal",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Prof. Dr., Hochschule der Medien Stuttgart, Beirat"
+            },
+            {
+                "vorname": "Andreas",
+                "nachname": "Kuckertz",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Prof. Dr., Universität Hochenheim, Beirat"
+            },
+            {
+                "vorname": "Alec",
+                "nachname": "Rauschenbusch",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Grazia Equity, Beirat"
+            },
+            {
+                "vorname": "Philipp",
+                "nachname": "Veit",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Dr., Stuttgart Financial, Beirat"
+            },
+            {
+                "vorname": "Patrick",
+                "nachname": "Planing",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Prof. Dr., Hochschule für Technik Stuttgart, Beirat"
+            },
+            {
+                "vorname": "Hannah",
+                "nachname": "Boomgarden",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Plug and Play Tech Center, Beirat"
+            },
+            {
+                "vorname": "Holger",
+                "nachname": "Triebsch",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": null,
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "IHK Region Stuttgart, Beirat"
+            },
+            {
+                "vorname": "Kathleen",
+                "nachname": "Fritzsche",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": "weiblich",
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Gründerin (2011)"
+            },
+            {
+                "vorname": "Harald",
+                "nachname": "Amelung",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": "männlich",
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Gründer (2011)"
+            },
+            {
+                "vorname": "Nadine",
+                "nachname": "Kamprad",
+                "geburtsdatum": null,
+                "geburtsort": null,
+                "geschlecht": "weiblich",
+                "adresse": {
+                    "straße": null,
+                    "hausnummer": null,
+                    "postleitzahl": null,
+                    "ort": null
+                },
+                "telefonnummer": null,
+                "email": null,
+                "beschreibung": "Gründerin von stage and voice und Organisatorin von TEDxStuttgart, Gastrednerin beim Gründergrillen"
+            }
+        ]
+    }
+}

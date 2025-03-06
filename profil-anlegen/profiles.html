@@ -1,0 +1,112 @@
+<!-- profiles.html -->
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <title>Profile anzeigen</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 2rem;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1000px;
+      margin-top: 1rem;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 0.5rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: #f2f2f2;
+    }
+    button {
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Gespeicherte Profile</h1>
+  <button onclick="location.href='index.html'">Neues Profil anlegen</button>
+
+  <div id="profilesContainer"></div>
+
+  <script>
+    window.addEventListener("DOMContentLoaded", async () => {
+      const container = document.getElementById("profilesContainer");
+
+      try {
+        // Profile abrufen
+        const response = await fetch("/api/profiles");
+        if (!response.ok) {
+          throw new Error("Fehler beim Laden der Profile: " + response.status);
+        }
+        const profiles = await response.json(); // Array aus db.json
+        if (!Array.isArray(profiles)) {
+          throw new Error("Unerwartetes Format (kein Array)");
+        }
+
+        // Tabelle erstellen
+        const table = document.createElement("table");
+
+        // Tabellen-Kopf (thead)
+        table.innerHTML = `
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Vorname</th>
+              <th>Nachname</th>
+              <th>Geburtsdatum</th>
+              <th>Geburtsort</th>
+              <th>Familienstand</th>
+              <th>Adresse</th>
+              <th>Telefon</th>
+              <th>E-Mail</th>
+              <th>Beschreibung</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        `;
+
+        const tbody = table.querySelector("tbody");
+
+        // Für jedes Profil eine Tabellenzeile
+        profiles.forEach((p, i) => {
+          // Adresse zusammensetzen
+          const addressStr = [
+            p.address?.street || "",
+            p.address?.house_number || "",
+            p.address?.postal_code || "",
+            p.address?.city || ""
+          ].join(" ");
+
+          // Zeile (tr) erstellen
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+            <td>${i + 1}</td>
+            <td>${p.first_name ?? ""}</td>
+            <td>${p.last_name ?? ""}</td>
+            <td>${p.date_of_birth ?? ""}</td>
+            <td>${p.place_of_birth ?? ""}</td>
+            <td>${p.marital_status ?? ""}</td>
+            <td>${addressStr}</td>
+            <td>${p.phone_number ?? ""}</td>
+            <td>${p.email ?? ""}</td>
+            <td>${p.description ?? ""}</td>
+          `;
+          tbody.appendChild(tr);
+        });
+
+        // Tabelle ins DOM hängen
+        container.appendChild(table);
+      } catch (error) {
+        alert("Fehler beim Laden der Profile: " + error.message);
+      }
+    });
+  </script>
+</body>
+</html>

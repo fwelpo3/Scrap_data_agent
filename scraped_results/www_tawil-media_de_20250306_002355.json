@@ -1,0 +1,31 @@
+{
+    "first_name": "",
+    "last_name": "",
+    "date_of_birth": "",
+    "place_of_birth": "",
+    "address": {
+        "street": "",
+        "house_number": "",
+        "postal_code": "",
+        "city": ""
+    },
+    "phone_number": "",
+    "email": "",
+    "description": "",
+    "zusätzliche_infos": {
+        "Person1": {
+            "first_name": "Mohammad Saleh",
+            "last_name": "Tawil",
+            "date_of_birth": null,
+            "address": {
+                "street": "Gartenstr.",
+                "house_number": "28",
+                "postal_code": "73033",
+                "city": "Göppingen"
+            },
+            "phone_number": "0179 2929072",
+            "email": "tawil0media@gmail.com",
+            "description": "Tawil Media is a company providing media production and digital marketing services. They create visual content and effective marketing strategies to help clients present their message and achieve their goals. They also aim to provide marketing knowledge to independent creatives."
+        }
+    }
+}

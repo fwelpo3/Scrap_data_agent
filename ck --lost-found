@@ -1,0 +1,14 @@
+[33mdfb3b20[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main1[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: pull origin main --rebase (finish): returning to refs/heads/main
+[33mdfb3b20[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main1[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{1}: pull origin main --rebase (start): checkout dfb3b2071a1820c79d1e948b1309fa9bad985542
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{2}: Branch: renamed refs/heads/main to refs/heads/main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{4}: Branch: renamed refs/heads/main to refs/heads/main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{6}: Branch: renamed refs/heads/main to refs/heads/main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{8}: Branch: renamed refs/heads/main to refs/heads/main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{10}: Branch: renamed refs/heads/main to refs/heads/main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{12}: Branch: renamed refs/heads/main to refs/heads/main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{14}: checkout: moving from main to main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{15}: checkout: moving from main to main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{16}: Branch: renamed refs/heads/master to refs/heads/main
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{18}: checkout: moving from master to master
+[33m3dc173c[m[33m ([m[1;31morigin/master[m[33m)[m HEAD@{19}: commit: Beschreibung der Änderung
+[33m3c93454[m HEAD@{20}: commit (initial): Erster Code-Upload
